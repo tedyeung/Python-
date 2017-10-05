@@ -14,6 +14,8 @@ b = 3.0
 print (a , b)
 print (type(a), type(b))
 print("******************* input string ****************************")
-name = input("what si your name?")
+name = input("what si your name? ")
 print (name, type(name))
-
+print("******************* input number and convert ****************************")
+age = int(input("How old are you? "))
+print (age, type(age))
