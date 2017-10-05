@@ -30,3 +30,9 @@
 #### c[-3:-1] output is 're: from the end of the string
 
 ## Lists
+
+### The list is a most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type.
+
+### Creating a list is as simple as putting different comma-separated values between square brackets. For example − my_list = ['Slavo', 36, "Python", "Swift", 3450]
+
+### To access values in lists, use the square brackets for slicing along with the index or indices to obtain value available at that index. For example − my_list[2] output is Python
