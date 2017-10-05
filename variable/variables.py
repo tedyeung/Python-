@@ -22,3 +22,8 @@ print (age, type(age))
 print("******************* input float and convert ****************************")
 salary = float(input("Write your salary? "))
 print (salary, type(salary))
+print("******************* input float and convert ****************************")
+name = 'Slavo'
+print(name);
+new_name = name.replace ("S", "P")
+print(new_name)
