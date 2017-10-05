@@ -79,9 +79,11 @@
 ## Errors 
 ### Sytax Error and excepcion
 
-# Conditionals
+## Conditionals
 ### = , >, <, <= ,>=
 ###  if condition:
 ###     pass/code
 ###  else:
 ####    pass/code
+
+## Loops
