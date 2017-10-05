@@ -36,3 +36,10 @@
 ### Creating a list is as simple as putting different comma-separated values between square brackets. For example − my_list = ['Slavo', 36, "Python", "Swift", 3450]
 
 ### To access values in lists, use the square brackets for slicing along with the index or indices to obtain value available at that index. For example − my_list[2] output is Python
+
+### You can update single or multiple elements of lists by giving the slice on the left-hand side of the assignment operator, and you can add to elements in a list with the append() method 
+
+## Tuples
+#### A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+
+#### Creating a tuple is as simple as putting different comma-separated values. Optionally you can put these comma-separated values between parentheses also.
