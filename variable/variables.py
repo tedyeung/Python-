@@ -13,3 +13,7 @@ a = 2.0
 b = 3.0
 print (a , b)
 print (type(a), type(b))
+print("******************* input string ****************************")
+name = input("what si your name?")
+print (name, type(name))
+
