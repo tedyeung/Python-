@@ -78,3 +78,6 @@
 
 ## Errors 
 ### Sytax Error and excepcion
+
+# Conditionals
+### = , >, <, <= ,>=
