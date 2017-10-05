@@ -18,7 +18,10 @@
 #### Code - dir(variable) -  you can print all avaible methods
 
 ### Indexing and Split Strings
-#### c = "Hi There!!!"
+#### c = "Hi There!"
 #### c[] indexing the string, python start counting from num 0
 #### c[0] - output is H; c[2] output is " " 
 #### c[-1] output is ! indexing from the end of the string
+#### c[0:1] outis H, splitting in Python is upper bound exclusive!!!
+#### c[0:2] output is "Hi" 
+#### c[-3:-1] output is 're: from the end of the string
