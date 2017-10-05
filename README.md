@@ -81,3 +81,7 @@
 
 # Conditionals
 ### = , >, <, <= ,>=
+###  if condition:
+###     pass/code
+###  else:
+####    pass/code
