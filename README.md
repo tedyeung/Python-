@@ -77,4 +77,4 @@
 #### full_name(input('Add your first name? '), input('Add your last name? ')):
 
 ## Errors 
-### 
+### Sytax Error and excepcion
