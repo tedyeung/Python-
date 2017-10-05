@@ -75,3 +75,6 @@
 
 #### Once the basic structure of a function is finalized, you can execute it by calling it from another function or directly from the Python prompt. Following is the example to call printme() function −
 #### full_name(input('Add your first name? '), input('Add your last name? ')):
+
+## Errors 
+### 
