@@ -9,4 +9,4 @@ def seconds_to_hours (sec):
     hours = sec / 3600
     return hours
 
-print (seconds_to_hours(56000))
+print (seconds_to_hours(56000), 's')
