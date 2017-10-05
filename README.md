@@ -67,3 +67,11 @@
 
 ####  Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ). Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
 
+#### example def full_name( first_name, last_name): 
+####    print(first_name + " " + last_name)
+
+#### Calling Function
+#### Defining a function only gives it a name, specifies the parameters that are to be included in the function and structures the blocks of code.
+
+#### Once the basic structure of a function is finalized, you can execute it by calling it from another function or directly from the Python prompt. Following is the example to call printme() function −
+#### full_name(input('Add your first name? '), input('Add your last name? ')):
