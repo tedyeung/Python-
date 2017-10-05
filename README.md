@@ -13,6 +13,9 @@
 ## Variables 
 #### Variables are container where you can store varius date types. 
 #### Variables can store all sorts of things, not just numbers. A typical other thing you want to have stored often is a string - a piece of text. Strings are indicated with a starting and ending " (double quote). You’ll learn about this and other types of data you can store, and what you can do with them later on.
+
+
+## Strings
 #### Everything inside the quotes "" are strings
 #### String has methods associated. For methods you need to use dot notation.
 #### Code - dir(variable) -  you can print all avaible methods
