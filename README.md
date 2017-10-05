@@ -54,3 +54,11 @@
 #### Keys are unique within a dictionary while values may not be. The values of a dictionary can be of any type, but the keys must be of an immutable data type such as strings, numbers, or tuples.
 #### example - my_dictionaries = {"Name": "Slavo", "age": 35, "nick_name": "Pop"}
 #### To access dictionary elements, you can use the familiar square brackets along with the key to obtain its value. Following is a simple example − print(my_dictionaries["name"])
+
+#### Dictionary values have no restrictions. They can be any arbitrary Python object, either standard objects or user-defined objects. However, same is not true for the keys.
+
+#### There are two important points to remember about dictionary keys :
+
+#### (a) More than one entry per key is not allowed. This means no duplicate key is allowed. When duplicate keys are encountered during assignment, the last assignment wins. 
+
+#### (b) Keys must be immutable. This means you can use strings, numbers or tuples as dictionary keys but something like ['key'] is not allowed. Following is a simple 
