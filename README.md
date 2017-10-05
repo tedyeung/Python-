@@ -44,3 +44,6 @@
 
 #### Creating a tuple is as simple as putting different comma-separated values. Optionally you can put these comma-separated values between parentheses also. 
 #### example - my_tuple = ("Slavo", 45, 4.6)
+
+#### To access values in tuple, use the square brackets for slicing along with the index or indices to obtain value available at that index. 
+#### exapmle - 
