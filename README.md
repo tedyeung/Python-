@@ -16,3 +16,6 @@
 #### Everything inside the quotes "" are strings
 #### String has methods associated. For methods you need to use dot notation.
 #### Code - dir(variable) -  you can print all avaible methods
+
+### Indexing and Split Strings
+#### c = "Hi There!!!"
