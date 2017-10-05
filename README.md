@@ -28,3 +28,5 @@
 #### c[0:1] outis H, splitting in Python is upper bound exclusive!!!
 #### c[0:2] output is "Hi" 
 #### c[-3:-1] output is 're: from the end of the string
+
+## Lists
