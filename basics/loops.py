@@ -23,5 +23,5 @@ print ('***** while loops ************')
 names = ['slavo', 'marko', 'nened']
 email_domain = ['gmail', 'hotmail', 'yahoo']
 
-for i, j in zip(names, email_domains):
+for i, j in zip(names, email_domain):
     print(i,j)
