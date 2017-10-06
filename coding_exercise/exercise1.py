@@ -22,8 +22,6 @@ print ('***************************** For loop *******************************')
 # Then, iterate over the temperature converter function that you created in execise 3 and print out the following output.
 
 temperatures = [10,-20,-289,100]
-for c in temperatures:
-    print(c)
 
 def temp (c):    
     if c < -273.15:        
@@ -31,4 +29,6 @@ def temp (c):
     else:        
         f = c * 9/5 + 32        
         return f
-print(temp(-273.4))
+
+for t in temperatures:
+    print("Temp in F is: ", temp(t))
