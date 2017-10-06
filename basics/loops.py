@@ -18,3 +18,10 @@ while password != 'python123':
         print('You are logged in')
     else:
         print('Sorry, try again')
+print ('***** while loops ************')
+
+names = ['slavo', 'marko', 'nened']
+email_domain = ['gmail', 'hotmail', 'yahoo']
+
+for i, j in zip(names, email_domains):
+    print(i,j)
