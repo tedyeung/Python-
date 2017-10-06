@@ -15,3 +15,7 @@ def temp (c):
         f = c * 9/5 + 32        
         return f
 print(temp(-273.4))
+
+# Consider the following list:
+# temperatures=[10,-20,-289,100]
+# Then, iterate over the temperature converter function that you created in execise 3 and print out the following output.
