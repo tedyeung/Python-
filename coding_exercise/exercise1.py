@@ -22,8 +22,9 @@ print ('***************************** For loop *******************************')
 # Then, iterate over the temperature converter function that you created in execise 3 and print out the following output.
 
 temperatures = [10,-20,-289,100]
-for c in temperatura:
-    print c
+for c in temperatures:
+    print(c)
+
 def temp (c):    
     if c < -273.15:        
         return "That temperature doesn't make sense!"    
