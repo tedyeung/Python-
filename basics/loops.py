@@ -6,3 +6,7 @@ print ('***** cheking ************')
 for item in emails:
     if 'gmail' in item:
         print(item)
+print ('***** cheking ************')
+a = 'Tricky'
+for i in a[:3]:
+    print(i)
