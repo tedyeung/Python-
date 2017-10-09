@@ -22,11 +22,11 @@ def temp (c):
 for t in temperatures:
     print ("Temp in F is", temp_file.write(str(temp(t)))
 
-temp_file.close()
+
 
 # using with statement
 
-temperatures=[10,-20,-289,100]
+temperatures = [10,-20,-289,100]
  
 def writer(temperatures):
     with open("temps.txt", 'w') as file:
