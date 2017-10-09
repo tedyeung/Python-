@@ -21,5 +21,5 @@ def temp (c):
 
 for t in temperatures:
     print ("Temp in F is", temp_file.write(str(temp(t)))
-    
+
 temp_file.close()
