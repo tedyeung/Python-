@@ -12,7 +12,7 @@
 
 temperatures = [10,-20,-289,100]
 temp_file = open('temp_file.txt', 'w')
-if def temp (c):
+def temp (c):
     if c < -273.15:
         return "Dont Print"
     else:
