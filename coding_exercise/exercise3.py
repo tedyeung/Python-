@@ -18,6 +18,8 @@ def temp (c):
     else:
         f = c * 9/5 + 32
         return f 
+
 for t in temperatures:
     print ("Temp in F is", temp_file.write(str(temp(t)))
-    temp_file.close()
+    
+temp_file.close()
