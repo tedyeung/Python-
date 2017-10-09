@@ -7,7 +7,8 @@ file_obj.close()
 first_python_edit = open('new_example.txt', 'w')
 first_python_edit.write('Welcome Slavo, You wrote your first line')
 first_python_edit.close()
-
+test_var = open('new_example.txt')
+print(test_var.read())
 
 
 
