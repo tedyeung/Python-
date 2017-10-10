@@ -4,3 +4,7 @@
 import glob2
 import datetime
 
+file_list = ['file1.txt', 'file2.txt', 'file3.txt']
+file_name = datetime.datetime.now();
+
+print(file_name)
