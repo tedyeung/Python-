@@ -22,3 +22,4 @@ def ran_check(num,low,high):
         print ('Number %s is out of the range' %str(num))
         
 ran_check(3,1,10)
+print ('*************************************************************')
