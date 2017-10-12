@@ -30,4 +30,3 @@ print ("Number 3 is in the range (1,10): ", ran_bool(3, 1, 10))
 print ("Number 3 is in the range (1,10): ", ran_bool(2,5,11))
 print ('******************************************************************')
 # Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters.
-
