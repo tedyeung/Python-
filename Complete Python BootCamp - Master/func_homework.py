@@ -5,4 +5,5 @@ def vol(rad):
     return (4/3)*3,14*(rad**3)
 print('Volume of a sphere is: ',vol(5));
 print('********************************')
+# Write a function that checks whether a number is in a given range (Inclusive of high and low)
 
