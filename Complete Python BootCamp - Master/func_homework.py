@@ -23,3 +23,8 @@ def ran_check(num,low,high):
         
 ran_check(3,1,10)
 print ('*************************************************************')
+def ran_bool(num,low,high):
+    return  num in range(low, high+1)
+
+print ("Number 3 is in the range (1,10): ", ran_bool(3, 1, 10))
+print ("Number 3 is in the range (1,10): ", ran_bool(2,5,11))
