@@ -1,4 +1,7 @@
-# make board fot tic tac toe game
+# make board for tic tac toe game
 
+board = []
 
- 
+def my_board(x):
+    for x in range (0, 3):
+        board.append(x)
