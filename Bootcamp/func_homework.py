@@ -30,3 +30,15 @@ print ("Number 3 is in the range (1,10): ", ran_bool(3, 1, 10))
 print ("Number 3 is in the range (1,10): ", ran_bool(2,5,11))
 print ('******************************************************************')
 # Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters.
+def up_low(s):
+    d={"upper":0, "lower":0}
+    for c in s:
+        if c.isupper():
+            d["upper"]+=1
+        elif c.islower():
+            d["lower"]+=1
+        else:
+            pass
+    print "Original String : ", s
+    print "No. of Upper case characters : ", d["upper"]
+    print "No. of Lower case Characters : ", d["lower"]
