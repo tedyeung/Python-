@@ -66,3 +66,10 @@ print('Slavo is palindrome: ', palindrome('Slavo'))
 print('Hello is palindrome: ', palindrome('Hello'))
 print('ala is palindrome: ', palindrome('ala'))
 print('madam is palindrome: ', palindrome('madam'))
+'''
+Hard:
+Write a Python function to check whether a string is pangram or not.
+Note : Pangrams are words or sentences containing every letter of the alphabet at least once.
+For example : "The quick brown fox jumps over the lazy dog"
+'''
+
