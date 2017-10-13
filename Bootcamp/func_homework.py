@@ -62,7 +62,7 @@ print('**********************************************************')
 # Write a Python function that checks whether a passed string is palindrome or not.
 def palindrome(s):
     return s == s[::-1]
-print('Slavo is plindrome: ', palindrome('Slavo'))
-print('Hello is plindrome: ', palindrome('Hello'))
-print('ala is plindrome: ', palindrome('ala'))
-print('madam is plindrome: ', palindrome('madam'))
+print('Slavo is palindrome: ', palindrome('Slavo'))
+print('Hello is palindrome: ', palindrome('Hello'))
+print('ala is palindrome: ', palindrome('ala'))
+print('madam is palindrome: ', palindrome('madam'))
