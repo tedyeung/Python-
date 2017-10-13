@@ -75,7 +75,7 @@ For example : "The quick brown fox jumps over the lazy dog"
 
 import string 
 def ispangram (str_test):
-    x = string.ascii_letters
+    x = string.string.ascii_lowercase
     y = set(x)
     return y <= set(str_test.lower())
 
