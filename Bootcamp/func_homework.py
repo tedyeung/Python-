@@ -44,3 +44,10 @@ def up_low(s):
     print ("No. of Lower case Characters : ", d["lower"])
 print('*******************************************************************')
 # Write a Python function that takes a list and returns a new list with unique elements of the first list.
+def unique_list(l):
+    x = []
+    x.append(set(l))
+    return x
+    
+print (unique_list([1, 2, 3,3,3,3, 4,4,4,4 ,5,5,5,5,6,6,6,6,]))
+print ('*******************************************************')
