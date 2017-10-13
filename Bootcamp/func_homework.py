@@ -39,6 +39,7 @@ def up_low(s):
             d["lower"]+=1
         else:
             pass
-    print "Original String : ", s
-    print "No. of Upper case characters : ", d["upper"]
-    print "No. of Lower case Characters : ", d["lower"]
+    print ("Original String : ", s)
+    print ("No. of Upper case characters : ", d["upper"])
+    print ("No. of Lower case Characters : ", d["lower"])
+print('*******************************************************************')
