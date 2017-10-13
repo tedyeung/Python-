@@ -60,3 +60,9 @@ def m_num(l):
 print ('Result is: ', m_num([1,2,3,4,5,6]))
 print('**********************************************************')
 # Write a Python function that checks whether a passed string is palindrome or not.
+def palindrome(s):
+    return s == s[::-1]
+print('Slavo is plindrome: ', palindrome('Slavo'))
+print('Hello is plindrome: ', palindrome('Hello'))
+print('ala is plindrome: ', palindrome('ala'))
+print('madam is plindrome: ', palindrome('madam'))
