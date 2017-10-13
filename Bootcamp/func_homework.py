@@ -52,3 +52,10 @@ def unique_list(l):
 print (unique_list([1, 2, 3,3,3,3, 4,4,4,4 ,5,5,5,5,6,6,6,6,]))
 print ('*******************************************************')
 # Write a Python function to multiply all the numbers in a list.
+def m_num(l):
+    total = 1
+    for x in l:
+        total *= x
+    return total
+print ('Result is: ', m_num([1,2,3,4,5,6]))
+print('**********************************************************')
