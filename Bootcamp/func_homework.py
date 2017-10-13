@@ -59,3 +59,4 @@ def m_num(l):
     return total
 print ('Result is: ', m_num([1,2,3,4,5,6]))
 print('**********************************************************')
+# Write a Python function that checks whether a passed string is palindrome or not.
