@@ -73,3 +73,11 @@ Note : Pangrams are words or sentences containing every letter of the alphabet a
 For example : "The quick brown fox jumps over the lazy dog"
 '''
 
+import string 
+def ispangram (str_test):
+    x = string.ascii_letters
+    y = set(x)
+    return y <= set(str_test.lower())
+
+ispangram("The quick brown fox jumps over the lazy dog")
+
