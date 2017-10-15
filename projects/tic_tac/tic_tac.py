@@ -10,3 +10,10 @@ def ppl():
         return 'O'
 player_two = ppl()
 print ('Player one is %s, player two is %s' %(player_one, player_two))
+
+board = []
+ 
+def myBoard():
+    for num in range(1,4):
+        board.append(num)
+    return board
