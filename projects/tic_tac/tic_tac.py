@@ -9,7 +9,4 @@ def ppl():
     else:
         return 'O'
 player_two = ppl()
-
-
-
 print ('Player one is %s, player two is %s' %(player_one, player_two))
