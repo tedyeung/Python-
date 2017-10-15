@@ -7,4 +7,5 @@ def my_board(x):
         board.append(x)
 
 def player():
-    
+    for x in l:
+        print (x)
