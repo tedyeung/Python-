@@ -1,6 +1,6 @@
 # Store and pring varibale
 name = 'Slavo'
-print (neme)
+print (name)
 
 # Sore a variable and then chanege a value of that varibale
 
