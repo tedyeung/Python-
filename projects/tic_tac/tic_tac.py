@@ -2,8 +2,8 @@
 print ('Wellcome to Tic Tac Toe Game by Slavo7')
 print ('***************************************')
 player_one = input("Please choose, use caplital letters: X or O): ")
-player_two = 'O'
 def ppl():
+    player_two = 'O'
     if player_one == 'O':
          player_two = 'X'
     else:
