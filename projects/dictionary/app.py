@@ -4,6 +4,7 @@ data = json.load(open('data.json'))
 
 def import_key ():
     word = input('Please add a word that you are interesting: ')
+    word = word.lower()
     if word in data:
         return (data[word])
     else: 
