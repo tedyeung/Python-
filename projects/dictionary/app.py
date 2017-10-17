@@ -1,6 +1,6 @@
 import json
 
-data = json.load('data.json')
+data = json.load(open('data.json'))
 
 def import_key ():
     word = input('Please add a word that you are interesting: ')
