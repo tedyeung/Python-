@@ -9,7 +9,7 @@ def import_key ():
     if word in data:
         return (data[word])
     elif len(get_close_matches(w, data.keys())) > 0:
-        print ('Did you mean %s please type again:' %word)
+        print ('Did you mean %s please type again:' % get_close_matches(w, data.keys()))[0])
     else: 
         print ("This word is out of the range")
 
