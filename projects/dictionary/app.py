@@ -1,4 +1,5 @@
 import json
+from difflib import SequenceMatcher
 
 data = json.load(open('data.json'))
 
@@ -7,6 +8,8 @@ def import_key ():
     word = word.lower()
     if word in data:
         return (data[word])
+    elif len(get_close_matches(w, data.keys())) > 0:
+        print ('Did you mean %s please type again:' %word)
     else: 
         print ("This word is out of the range")
 
