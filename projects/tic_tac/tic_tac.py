@@ -1,7 +1,8 @@
 print ('WELCOME TO TIC TAC TOE GAME ENJOY')
 print ('**********************************')
+print ('                                  ')
 
-board = [" ", "X", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def tic_tac_board (board):
     print (' ' + board[1] + '|' + board[2] + '|' + board[3] + " ")
@@ -14,3 +15,12 @@ def tic_tac_board (board):
 
 
 tic_tac_board(board)
+
+player_one = 'X'
+player_two = 'O'
+
+def input_player():
+    input_ppl = input('Please choose X or O: ')
+    input_ppl = input_ppl.upper()
+    return input_ppl
+print(input_player())
