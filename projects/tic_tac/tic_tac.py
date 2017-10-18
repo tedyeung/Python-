@@ -1,3 +1,6 @@
+print ('WELCOME TO TIC TAC TOE GAME ENJOY')
+print ('**********************************')
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def tic_tac_board (board):
@@ -8,6 +11,8 @@ def tic_tac_board (board):
     print (' ' + " " + '|' + " " + '|' + " " + " ")
     print ('___________')
     print (' ' + board[7] + '|' + board[8] + '|' + board[9] + " ")
+    print (' ' + " " + '|' + " " + '|' + " " + " ")
+    print ('**********************************')
 
 
 tic_tac_board(board)
