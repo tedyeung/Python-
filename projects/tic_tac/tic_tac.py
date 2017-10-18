@@ -6,3 +6,6 @@ def tic_tac_board (board):
     print (' ' + board[4] + '|' + board[5] + '|' + board[5] + " ")
     print ('____________________________________________________')
     print (' ' + board[4] + '|' + board[5] + '|' + board[5] + " ")
+
+
+tic_tac_board(board)
