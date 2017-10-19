@@ -15,8 +15,7 @@ def winner():
         print("Well done %s you are the best" %(board[3]))
     else:
         pass
-        
-           
+              
 
 def top_title():
     print('************************')
