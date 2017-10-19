@@ -27,10 +27,9 @@ def players():
     else:
         print ('You add wrong parametar and Player one: X, Player two: O')
     return (player_one, player_two)
+
 players()
-  
 print('Player one: %s \nPlayer two: %s' %(player_one, player_two))
 print ('**********************************')
 print('*********Start the Game************')
 print ('**********************************')
-
