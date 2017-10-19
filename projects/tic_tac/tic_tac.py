@@ -14,21 +14,18 @@ def tic_tac_board (board):
     print ('**********************************')
 
 tic_tac_board(board)
-def players():
+player_one = 'X'
+player_two = 'O'
+input_ppl = input("Choose player X or 0: ").upper()
+if input_ppl == 'X':
     player_one = 'X'
     player_two = 'O'
-    input_ppl = input("Choose player X or 0: ").upper()
-    if input_ppl == 'X':
-        player_one = 'X'
-        player_two = 'O'
-    elif input_ppl == 'O':
-        player_one = 'O'
-        player_two = 'X'
-    else:
-        print ('You add wrong parametar and Player one: X, Player two: O')
-    return (player_one, player_two)
-
-players()
+elif input_ppl == 'O':
+    player_one = 'O'
+    player_two = 'X'
+else:
+    print ('You add wrong parametar and Player one: X, Player two: O')
+    
 print('Player one: %s \nPlayer two: %s' %(player_one, player_two))
 print ('**********************************')
 print('*********Start the Game************')
