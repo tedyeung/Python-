@@ -2,7 +2,7 @@ print ('WELCOME TO TIC TAC TOE GAME ENJOY')
 print ('**********************************')
 print ('                                  ')
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 ", " 10 "]
 
 def tic_tac_board (board):
     print (' ' + board[1] + '|' + board[2] + '|' + board[3] + " ")
@@ -29,3 +29,4 @@ else:
 print('Player one: %s \nPlayer two: %s' %(player_one, player_two))
 print ('**********************************')
 print('*********Start the Game************')
+print ('**********************************')
