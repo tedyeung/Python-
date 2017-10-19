@@ -18,9 +18,14 @@ tic_tac_board(board)
 
 player_one = 'X'
 player_two = 'O'
-
-def input_player():
-    input_ppl = input('Please choose X or O: ')
-    input_ppl = input_ppl.upper()
-    return input_ppl
-print(input_player())
+input_ppl = input("Choose player X or 0: ").upper()
+if input_ppl == 'X':
+    player_one = 'X'
+    player_two = 'O'
+else:
+    player_one = 'O'
+    player_two = 'X'
+    
+print('Player one: %s \nPlayer two: %s' %(player_one, player_two))
+print ('**********************************')
+print('*********Start the Game************')
