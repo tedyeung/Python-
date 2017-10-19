@@ -2,6 +2,22 @@ print ('WELCOME TO TIC TAC TOE GAME ENJOY')
 print ('**********************************')
 print ('                                  ')
 
+def winner():
+    if board[1] == board[2] == board [3]:
+        print("Well done %s you are the best" %(board[1]))
+    elif board[4] == board[5] == board [6]:
+        print("Well done %s you are the best" %(board[4]))
+    elif board[7] == board[8] == board [9]:
+        print("Well done %s you are the best" %(board[7]))
+    elif board[1] == board[5] == board [9]:
+        print("Well done %s you are the best" %(board[1]))
+    elif board[3] == board[5] == board [7]:
+        print("Well done %s you are the best" %(board[3]))
+    else:
+        pass
+        
+           
+
 def top_title():
     print('************************')
     print('New Move')
@@ -48,5 +64,10 @@ tic_tac_board(board)
 top_title()
 ppl_moves()
 tic_tac_board(board)
+
+top_title()
+ppl_moves()
+tic_tac_board(board)
+winner()
 
 
