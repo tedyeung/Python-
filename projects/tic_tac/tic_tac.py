@@ -68,8 +68,7 @@ top_title()
 ppl_moves()
 tic_tac_board(board)
 winner()
-if winner():
-    exit()
+
 
 top_title()
 ppl_moves()
