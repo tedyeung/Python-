@@ -24,7 +24,7 @@ elif input_ppl == 'O':
     player_one = 'O'
     player_two = 'X'
 else:
-    print ('You add wrong parametar and Player one: %s, Player two: %s'  %(player_one, player_two))
+    print ('You add wrong parametar and Player one: X, Player two: O')
     
 print('Player one: %s \nPlayer two: %s' %(player_one, player_two))
 print ('**********************************')
