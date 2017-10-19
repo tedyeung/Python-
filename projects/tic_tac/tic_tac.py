@@ -3,6 +3,7 @@ print ('**********************************')
 print ('                                  ')
 
 def top_title():
+    print('************************')
     print('New Move')
     print('Chose the left positions')
 
@@ -41,6 +42,7 @@ def ppl_moves():
     board[add_one] = player_one
     board[add_two] = player_two
     return(board)
+ppl_moves()
 tic_tac_board(board)
 
 top_title()
