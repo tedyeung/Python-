@@ -33,3 +33,9 @@ print('Player one: %s \nPlayer two: %s' %(player_one, player_two))
 print ('**********************************')
 print('*********Start the Game************')
 print ('**********************************')
+add_one = int(input('Player one - please add %s in position from 1 to 9: ' %(player_one)))
+add_two = int(input('Player one - please add %s in position from 1 to 9: ' %(player_two)))
+board[add_one] = player_one
+board[add_two] = player_two
+tic_tac_board(board)
+print(board)
