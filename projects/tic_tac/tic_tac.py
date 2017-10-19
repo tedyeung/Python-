@@ -13,10 +13,8 @@ def tic_tac_board (board):
     print ('                                  ')
     print ('**********************************')
 
-
 tic_tac_board(board)
 
-tic_tac_board(board)
 player_one = 'X'
 player_two = 'O'
 input_ppl = input("Choose player X or 0: ").upper()
