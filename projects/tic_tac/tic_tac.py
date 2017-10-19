@@ -70,4 +70,12 @@ ppl_moves()
 tic_tac_board(board)
 winner()
 
+top_title()
+ppl_moves()
+tic_tac_board(board)
+winner()
 
+top_title()
+ppl_moves()
+tic_tac_board(board)
+winner()
