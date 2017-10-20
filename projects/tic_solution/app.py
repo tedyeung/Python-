@@ -53,7 +53,7 @@ def full_board_check (board):
 
 def player_choice(board):
     position = ' '
-    while position not in '1 2 3 4 5 6 7 8 9'.split():
+    while position not in '1 2 3 4 5 6 7 8 9'.split() or not space_check(board, int(position)):
         position = input('Choose your next position: (1-9)  ')
     
 
