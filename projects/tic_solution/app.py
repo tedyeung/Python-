@@ -76,7 +76,28 @@ while True:
                 display_board(theBoard)
                 print('Well Done, Player 1, has won the game!!')
                 game_on = False
-    
+            else: 
+                if full_board_check(theBoard):
+                    display_board(theBoard)
+                    print('The game is a draw!!')
+                    break
+                else:
+                    turn = 'Player 2'
+        else:
+            display_board(theBoard)
+            position = player_choice(theBoard)
+            place_marker(theBoard, player2_marker, position)
+            if win_check(theBoard, player2_marker):
+                display_board(theBoard)
+                print('Well Done, Player 2, has won the game!!')
+                game_on = False
+            else: 
+                if full_board_check(theBoard):
+                    display_board(theBoard)
+                    print('The game is a draw!!')
+                    break
+                else:
+                    turn = 'Player 1'
 
 
 
