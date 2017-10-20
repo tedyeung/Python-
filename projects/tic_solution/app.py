@@ -61,6 +61,10 @@ def replay():
     return input('Do you want to play again? yes or No ').lower.startswith('y')
     
 print ('Welcome to Tic Tac Toe!!!')
+while True:
+    theBoard = [' '] * 10
+    player1_marker, player2_marker
+
 
 
 
