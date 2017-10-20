@@ -51,3 +51,10 @@ def full_board_check (board):
             return False
     return True
 
+def player_choice(board):
+    position = ' '
+    while position not in '1 2 3 4 5 6 7 8 9'.split():
+        position = input('Choose your next position: (1-9)  ')
+    
+
+
