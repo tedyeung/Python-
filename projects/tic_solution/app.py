@@ -56,6 +56,12 @@ def player_choice(board):
     while position not in '1 2 3 4 5 6 7 8 9'.split() or not space_check(board, int(position)):
         position = input('Choose your next position: (1-9)  ')
     return int(position)
+
+def replay():
+    return input('Do you want to play again? yes or No ').lower.startswith('y')
     
+print ('Welcome to Tic Tac Toe!!!')
+
+
 
 
