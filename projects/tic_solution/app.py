@@ -11,3 +11,15 @@ def display_board(board):
 
 board = ['X']*10
 display_board(board)
+
+def player_input():
+    marker = ''
+    while not (marker == 'O' or marker == "X"):
+        print ('Wrong input please try again!!')
+        marker = input("Player One: Do you want to be X or O")
+    if marker == 'X':
+        return ('X', 'O')
+    else:
+        return ('O', 'X')
+    
+player_input()
