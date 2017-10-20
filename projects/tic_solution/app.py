@@ -35,3 +35,10 @@ def win_check(board, mark):
     (board[9] == mark and board[6] == mark and board[3] == mark) or      
     (board[7] == mark and board[5] == mark and board[3] == mark) or     
     (board[9] == mark and board[5] == mark and board[1] == mark)     )
+
+def choose_first():
+    if random.randint(0,1) == 0:
+        return 'Player 1'
+    else:
+        return 'Player 2'
+
