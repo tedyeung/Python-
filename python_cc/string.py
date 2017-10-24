@@ -10,7 +10,8 @@ first_name = 'Steve'
 last_name = 'Jobs'
 quote = '"Have the courage to follow your heart and intuition. They somehow know what you truly want to become!"'
 print(first_name, ' ', last_name, 'once said:', '\n', quote)
+print('*****************************************************')
 # Example 4 using lstrip, rstrip and strip method
 full_name = '    Slavoljub Popovic      !'
-print (full_name(), '\n', full_name.lstrip(), '\t', full_name.rstrip(), '\n', full_name.strip())
+print (full_name, '\n', full_name.lstrip(), '\t', full_name.rstrip(), '\n', full_name.strip())
 
