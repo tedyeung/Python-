@@ -9,5 +9,5 @@ print('*****************************************************')
 first_name = 'Steve'
 last_name = 'Jobs'
 quote = '"Have the courage to follow your heart and intuition. They somehow know what you truly want to become!"'
-print(fist_name, " ", last_name, 'once said', '\n', quote)
+print(first_name, ' ', last_name, 'once said', '\n', quote)
 
