@@ -1,0 +1,3 @@
+print ('Slavo')
+
+print ('\tSlavo')
