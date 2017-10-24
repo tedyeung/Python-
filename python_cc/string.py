@@ -14,4 +14,10 @@ print('*****************************************************')
 # Example 4 using lstrip, rstrip and strip method
 full_name = '    Slavoljub Popovic      !'
 print (full_name, '\n', full_name.lstrip(), '\t', full_name.rstrip(), '\n', full_name.strip())
+print ('===================================')
+print (full_name.rstrip())
+print (full_name.lstrip())
+print (full_name.strip())
+
+
 
