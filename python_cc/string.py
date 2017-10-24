@@ -12,7 +12,7 @@ quote = '"Have the courage to follow your heart and intuition. They somehow know
 print(first_name, ' ', last_name, 'once said:', '\n', quote)
 print('*****************************************************')
 # Example 4 using lstrip, rstrip and strip method
-full_name = '    Slavoljub Popovic      !'
+full_name = '    Slavoljub Popovic!            '
 print (full_name, '\n', full_name.lstrip(), '\t', full_name.rstrip(), '\n', full_name.strip())
 print ('===================================')
 print (full_name.rstrip())
