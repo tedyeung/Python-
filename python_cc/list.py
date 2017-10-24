@@ -1,0 +1,20 @@
+# example 1 
+team = ['Marko', 'Mladen', 'Nick', 'Zvezdan', 'Buca', 'Juan', 'Slavo']
+print (team)
+print (team[0])
+print (team[1])
+print (team[2])
+print (team[3])
+print (team[4])
+print (team[5])
+print (team[6])
+print('********************************************')
+# example 2 
+print ('Well Done, ', team[0], '!!',  ' You are team member of FC Euro')
+print ('Well Done, ', team[1], '!!',  ' You are team member of FC Euro')
+print ('Well Done, ', team[2], '!!',  ' You are team member of FC Euro')
+print ('Well Done, ', team[3], '!!',  ' You are team member of FC Euro')
+print ('Well Done, ', team[4], '!!',  ' You are team member of FC Euro')
+print ('Well Done, ', team[5], '!!',  ' You are team member of FC Euro')
+print ('Well Done, ', team[6], '!!',  ' You are team member of FC Euro')
+print ('***************************************************')
