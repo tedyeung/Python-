@@ -9,5 +9,5 @@ print (guest)
 del guest[3]
 print (guest)
 # using remove method
-guest.remove(0)
+guest.remove('Marko')
 print (guest)
