@@ -12,7 +12,7 @@ print (guest)
 guest.remove('Marko')
 print (guest)
 # using add method
-guest.add('Marinko')
+guest.append('Marinko')
 print(guest)
 # using insert method
 guest.insert(2, 'Dejan')
