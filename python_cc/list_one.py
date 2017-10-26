@@ -11,3 +11,9 @@ print (guest)
 # using remove method
 guest.remove('Marko')
 print (guest)
+# using add method
+guest.add('Marinko')
+print(guest)
+# using insert method
+guest.insert(2, 'Dejan')
+print (guest)
