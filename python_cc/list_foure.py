@@ -22,4 +22,8 @@ for number in range(0, 31):
     if (number % 3) == 0:
       list_numb.append(number)
 print('List of numbers: ',list_numb)
-    
+# cube numbers of list 1 to 10
+cube_numbers = []
+for number in range (1, 10):
+      cube_numbers.append(number**3)
+print ('Cube numbers of 1 to 10 are: ', cube_numbers)
