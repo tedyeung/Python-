@@ -12,3 +12,8 @@ print ('if you want to be android and microsoft dev you need to use this: ')
 for language in languages[-4:]:
     print(language)
 
+print ('*******************************************************************')
+
+web_development = ['HTML', 'CSS', 'JavaScript', 'Python', 'Node', 'Ruby', 'Java', 'C#']
+my_development_list = web_development[0:6]
+print('My skills are: ', my_development_list)
