@@ -16,3 +16,8 @@ print ('SUm all numbers in range from 1 to 1m: ', sum(one_m))
 # odd numbers
 odd_numbers = [number for number in range(1, 21, 2) ]
 print(odd_numbers)
+# list of numbers multiply by 3
+for number in range(0, 31):
+    if (number % 3) == 0:
+      print (number)
+    
