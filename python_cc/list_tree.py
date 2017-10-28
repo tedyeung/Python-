@@ -5,6 +5,9 @@ for language in languages:
     print (language)
 
 print('*************************************')
-
+# for loop and statements
 for language in languages:
     print('I need to learn ' + language.title() + '!')
+
+print('*************************************')
+
