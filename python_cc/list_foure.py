@@ -27,3 +27,5 @@ cube_numbers = []
 for number in range (1, 10):
       cube_numbers.append(number**3)
 print ('Cube numbers of 1 to 10 are: ', cube_numbers)
+# list comprehension
+
