@@ -6,3 +6,7 @@ class Sample (object):
     pass 
 x = Sample()
 print(type(x))
+
+# new class
+class Dog(object):
+    def __init__(self)
