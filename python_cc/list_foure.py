@@ -10,6 +10,6 @@ print ('*****************************************')
 
 # for min and max loop
 one_m = list(range(1, 100001))
-min(one_m)
-max(one_m)
-sum(one_m)
+print (min(one_m))
+print (max(one_m))
+print (sum(one_m))
