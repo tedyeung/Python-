@@ -10,7 +10,7 @@ print ('*******************')
 # new class
 class Dog(object):
   # class object attributes
-    species = 'mamma'
+    species = 'mammal'
     def __init__(self, breed):
         self.breed = breed
 
