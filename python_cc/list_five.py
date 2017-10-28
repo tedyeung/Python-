@@ -9,5 +9,5 @@ for language in languages[5:9]:
     print(language)
 
 print ('if you want to be android and microsoft dev you need to use this: ')
-for language in languages[-1:-4]:
+for language in languages[-4:]:
     print(language)
