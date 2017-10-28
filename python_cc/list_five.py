@@ -18,7 +18,7 @@ web_development = ['HTML', 'CSS', 'JavaScript', 'Python', 'Node', 'Ruby', 'Java'
 my_development_list = web_development[0:6]
 print('My skills are: ', my_development_list)
 my_development_list.append('Swift')
-web_development('Swift')
+web_development.append('Swift')
 print (my_development_list)
 print (web_development)
 
