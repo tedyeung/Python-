@@ -11,7 +11,7 @@ print ('*******************')
 class Dog(object):
   # class object attributes
     species = 'mammal'
-    def __init__(self, breed,name)
+    def __init__(self, breed,name):
         self.breed = breed
         self.name = name
 
