@@ -17,4 +17,5 @@ class Dog(object):
 sam = Dog(breed='Lab')
 print(sam)
 print(sam.breed)
+print(sam.species)
 
