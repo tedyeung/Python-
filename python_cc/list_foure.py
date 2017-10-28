@@ -5,8 +5,8 @@ for value in range(1, 21):
 print ('*****************************************')
 
 # for 1M loop
-for value in range (1, 1000001):
-    print (value)
+# for value in range (1, 1000001):
+  #  print (value)
 
 # for min and max loop
 one_m = list(range(1, 100001))
