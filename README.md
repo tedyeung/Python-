@@ -92,3 +92,5 @@
 # Objects
 # 'Everything is Objects in Python'
 ## An Atribute is a characteristic of an Object. A method is an operation we can perform with the object!!!
+## syntax for atribute is self.attribute = something 
+## Special method called: __init__() - 
