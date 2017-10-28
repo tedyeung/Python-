@@ -10,6 +10,6 @@ print ('*****************************************')
 
 # for min and max loop
 one_m = list(range(1, 100001))
-print (min(one_m))
-print (max(one_m))
-print (sum(one_m))
+print ('Min number in range from 1 to 1m: ', min(one_m))
+print ('Max number in range from 1 to 1m: ', max(one_m))
+print ('SUm all numbers in range from 1 to 1m: ', sum(one_m))
