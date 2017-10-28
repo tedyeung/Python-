@@ -6,7 +6,7 @@ class Sample (object):
     pass 
 x = Sample()
 print(type(x))
-
+print ('*******************')
 # new class
 class Dog(object):
     def __init__(self, breed):
