@@ -9,9 +9,12 @@ print(type(x))
 print ('*******************')
 # new class
 class Dog(object):
+  # class object attributes
+    species = 'mamma'
     def __init__(self, breed):
         self.breed = breed
 
 sam = Dog(breed='Lab')
 print(sam)
 print(sam.breed)
+
