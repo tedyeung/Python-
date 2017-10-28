@@ -2,4 +2,7 @@
 l = [1, 2, 3]
 l.count(2)
 
-# class keyword 
+# sample class
+class Sample (object):
+    pass 
+
