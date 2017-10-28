@@ -11,10 +11,11 @@ print ('*******************')
 class Dog(object):
   # class object attributes
     species = 'mammal'
-    def __init__(self, breed):
+    def __init__(self, breed),name:
         self.breed = breed
+        self.name = name
 
-sam = Dog(breed='Lab')
+sam = Dog(breed='Lab', name = 'Ari')
 print(sam)
 print(sam.breed)
 print(sam.species)
