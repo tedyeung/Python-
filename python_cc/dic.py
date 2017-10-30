@@ -17,5 +17,5 @@ print (users)
 print('************ LOOP ************************************')
 for key, user in users.items():
     print('\nKey:' + key )
-    print('Value: ' + value)
+    print('Value: ' + user)
 
