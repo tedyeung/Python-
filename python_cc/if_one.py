@@ -15,3 +15,14 @@ if alien_color == 'green':
 else:
     print('You lost try again')
 print('*****************************************')
+
+fruits = ['grappes', 'apples', 'tomato']
+
+if 'grappes' in fruits:
+    print('I love too grappes')
+
+if 'apples' in fruits:
+    print('I love too apples')
+
+if 'tomato' in fruits:
+    print('I love too tomato')
