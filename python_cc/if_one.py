@@ -14,3 +14,4 @@ if alien_color == 'green':
     print ('Well done you won 5 points')
 else:
     print('You lost try again')
+print('*****************************************')
