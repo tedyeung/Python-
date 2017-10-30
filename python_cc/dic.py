@@ -3,7 +3,7 @@
 user = {
     'first_name': 'Slvko',
     'last_name': 'Popovic',
-    'age': 35'
+    'age': 35,
     'city': 'Pompano Beach'
     }
 
