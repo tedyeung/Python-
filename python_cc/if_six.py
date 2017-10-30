@@ -18,6 +18,7 @@ else:
 print('***************************************')
 # Oridinal numbers
 numbers = [1,2,3,4,5,6,7,8,9]
+
 for num in numbers:
     if num == 1:
         pass
@@ -25,7 +26,7 @@ for num in numbers:
         pass
     elif num == 3:
         pass
-    else: 
+    elif num in [4,5,6,7,8,9]: 
         print ('4th, 5th, 6th, 7th, 8th, 9th')
 
 print('All Challages are completed')
