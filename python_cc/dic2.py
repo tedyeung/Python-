@@ -10,6 +10,7 @@ for name, river in rivers.items():
 print ('***************************************************')
 
 favorite_languages = {
+
     'jen': 'python', 
     'sarah': 'c',
     'edward:' 'ruby',
@@ -17,7 +18,6 @@ favorite_languages = {
     'nemanja': 'javaScript',
     'vlastimir': 'swift',
     'marko': 'php'
-
-
+    
 }
 
