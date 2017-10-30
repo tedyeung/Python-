@@ -10,3 +10,10 @@ for username in usernames:
 
 print ('Thank You all')
 print ('***********************************')
+users = []
+for user in users:
+    if 'Pera' == user:
+        print ('WOW')
+    else:
+        print('List is empty')
+        
