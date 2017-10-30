@@ -28,6 +28,7 @@ for num in numbers:
         pass
     elif num in [4,5,6,7,8,9]: 
         print ('4th, 5th, 6th, 7th, 8th, 9th')
+        break
 
 print('All Challages are completed')
         
