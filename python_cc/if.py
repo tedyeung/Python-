@@ -10,3 +10,6 @@ languages = ['Python', 'JavaScript', 'Swift', 'php']
 
 if language in languages:
     print ('Well done you know Python')
+
+if 'R' not in language:
+    print('You need to learn R')
