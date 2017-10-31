@@ -26,7 +26,7 @@ while status:
     name = input(question_one)
     skill = input(question_two)
     age = input('How old are you? ')
-    city = input('Where are you live')
+    city = input('Where are you live? ')
 
     user_one["name"] = name.title()
     user_one["skill"] = skill.title()
@@ -37,7 +37,7 @@ while status:
 
     new_question = input('If all info are good say y or type n and \nDo it again: ')
 
-    if new_question == 'n':
+    if new_question == 'y':
         status = False
 
 print ('Your info: ', '\n\t', user_one)
