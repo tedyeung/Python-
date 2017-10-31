@@ -4,7 +4,11 @@ question = 'Please enter your wishes: '
 answer = ""
 while answer != 'Quit':
     answer = input(question)
-    wishes.append(answer)
+    if answer != 'Quit':
+        wishes.append(answer)
+    else:
+        print('Start NOW!!!')
+
 
 print(wishes)
 
