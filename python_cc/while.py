@@ -1,8 +1,7 @@
 # while loop
 wishes = []
-question = input('Please enter your wishes: ')
-
 while question != 'Quit':
+    question = input('Please enter your wishes: ')
     wishes.append(question)
 
 print (wishes)
