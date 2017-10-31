@@ -22,5 +22,9 @@ favorite_languages = {
 
 }
 
+for name in favorite_languages.i():
+    print(name.title() + ' ' + )
 
+    if name in users:
+        print ('Hi %s, you are coding with %s' %(name.title(), favorite.languages[name]))
 
