@@ -1,7 +1,7 @@
 # input 
 message = input('What kind of car would you like to rent: ')
 print('Let me take a look if we have that mode ' + message + ' ,this is really nice model!')
-print ('************************************************************************************', '\n ')
+print ('\n', '************************************************************************************', '\n ')
 
 # input and if statement , integer 
 
@@ -12,4 +12,4 @@ if int(question) < guests:
 else:
     print('You have more guest that we can fit let me check if we have table for: %s'   %question)
 
-print ('************************************************************************************', '\n ')
+print ('\n','************************************************************************************', '\n ')
