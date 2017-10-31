@@ -30,10 +30,30 @@ print('*************************************')
 
 user_one["age"] = 36
 print(user_one)
-
 print('*************************************')
 
+user1 = {
+    'name': 'Mark',
+    'skills': ['swift', 'java']
+}
 
+user2 = {
+    'name': 'Caleb',
+    'skills': ['swift', 'c#', 'c++']
+}
 
+user3 = {
+    'name': 'Cris',
+    'skills': ['python', 'r', 'scala']
+}
+
+new_users = [ user1, user2, user3]
+
+for users in new_users:
+    print(users)
+print('********************************')    
+
+for user, language in user1.items:
+    print('Welcome %s' %user)
 
 
