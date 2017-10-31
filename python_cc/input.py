@@ -6,8 +6,9 @@ print ('************************************************************************
 # input and if statement , integer 
 
 question = input = ('How many guest are you expecting? ')
+question = int(question)
 guests = 8
-if int(question) < 8:
+if question < guests:
     print('We have a tabel for you, table will have: %s' %question)
 else:
     print('You have more guest that we can fit let me check if we have table for %s' %question)
