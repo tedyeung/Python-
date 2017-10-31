@@ -25,7 +25,7 @@ user_tree = {
 users_list = [user_one, user_two, user_tree]
 
 for user in users_list:
-    print(users_list)
+    print(user)
 print('*************************************')
 
 
