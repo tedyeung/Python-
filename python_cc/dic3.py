@@ -54,6 +54,6 @@ for users in new_users:
 print('********************************')    
 
 for user, language in user1.items():
-    print('Welcome %s' user)
+    print('Welcome %s' %user)
 
 
