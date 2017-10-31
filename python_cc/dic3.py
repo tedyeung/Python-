@@ -64,6 +64,37 @@ for user in new_users:
     print('Welcome %s, your skills are: ' %user['name'])
     for leng in user['skills']:
         print(leng)
+
+print ('*************************************************************************')
+print (' ')
+
+players = {
+
+    'z' : {
+        'first_name': 'Zvezdan',
+        'last_name': 'Zivkovic',
+        'position': 'Left Middfilder / Back'
+    },
+
+    'Marco' : {
+        'first_name': 'Marko',
+        'last_name': 'Marenko',
+        'position': 'Goalie'
+    },
+
+    'Slavo' : {
+        'first_name': 'Slavoljub',
+        'last_name': 'Popovic',
+        'position': 'Stricker / Middfilder'
+    },
+
+    'Edin' : {
+        'first_name': 'Edin',
+        'last_name': 'Ormedic',
+        'position': 'Right Middfilder / Back'
+    }
+
+}
         
     
 
