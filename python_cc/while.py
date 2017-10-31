@@ -1,7 +1,7 @@
 # while loop
 wishes = []
 prompt = 'Please enter your wishes: '
-while prompt == 'Quit':
+while prompt != 'Quit':
     question = input(prompt)
     print(question)
 
