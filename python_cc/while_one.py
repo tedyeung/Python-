@@ -27,8 +27,8 @@ while status:
     skill = input(question_two)
     new_question = input('Do you have any recomendation please answer with y or n: ')
 
-    response[name] = response
-    response[skill] = response
+    response[name] = name
+    response[skill] = skill
 
     if new_question == 'n':
         status = False
