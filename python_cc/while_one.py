@@ -24,11 +24,11 @@ status = True
 
 while status: 
     name = input(question_one)
-    skill = input(question_two)
+    response = input(question_two)
     new_question = input('Do you have any recomendation please answer with y or n: ')
 
-    response[name] = name
-    response[skill] = skill
+    response[name] = response
+    response[skill] = response
 
     if new_question == 'n':
         status = False
