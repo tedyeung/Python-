@@ -15,10 +15,10 @@ else:
 print ('\n','************************************************************************************', '\n ')
 
 number = input('Add number and please check if is multiple of 9: ')
-
+result = str(int(number) % 9)
 if int(number) % 9:
-    print ('Your number %s is multiple by 9')
+    print ('Your number %s is multiple by 9' %number)
 else: 
-    print ('Your number has rimider of ' + int(number) % 9 )
+    print ('Your number has rimider of %s' %result )
 
-    
+
