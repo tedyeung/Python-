@@ -31,7 +31,7 @@ while status:
     user_one["name"] = name.title()
     user_one["skill"] = skill.title()
     user_one['age'] = int(age)
-    user_one[city] = city.title()
+    user_one['city'] = city.title()
 
     print (user_one)
 
