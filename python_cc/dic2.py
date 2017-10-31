@@ -23,8 +23,9 @@ favorite_languages = {
 }
 
 for name in favorite_languages.keys():
-    print (name.title() + ' , well done') 
-
     if name in users:
-        print ('Hi %s, you are coding with %s' %(name.title(), favorite_languages[name].title()))
-
+        print('%s, your language is: %s' %(name.title(), favorite_languages[name].title())
+    
+for user in users:
+    if user not in favorite_languages.keys():
+        print ('Dear %s, you need to choose one of the programming languages' %(user))
