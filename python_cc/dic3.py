@@ -97,9 +97,9 @@ players = {
 }
 
 for player, player_info in players.items():
-    print('Player nick_name: ', player)
+    print('\nPlayer nick_name: ', player)
     print ('Player info: ')
-    print ('First name: ', player_info['first_name'])
-    print ('Last name: ', player_info['last_name'])   
-    print ('Position: ', player_info['position'])
+    print ('\n\tFirst name: ', player_info['first_name'])
+    print ('\tLast name: ', player_info['last_name'])   
+    print ('\tPosition: ', player_info['position'])
 
