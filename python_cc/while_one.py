@@ -25,10 +25,15 @@ status = True
 while status: 
     name = input(question_one)
     skill = input(question_two)
+    age = input('How old are you? ')
+    city = input('Where are you live')
+
     new_question = input('Do you have any recomendation please answer with y or n: ')
 
-    response["name"] = name
-    response["skill"] = skill
+    response["name"] = name.title()
+    response["skill"] = skill.title()
+    response['age'] = int(age)
+    response[city] = city.title()
 
     if new_question == 'n':
         status = False
