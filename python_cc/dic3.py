@@ -47,7 +47,7 @@ user3 = {
     'skills': ['python', 'r', 'scala']
 }
 
-new_users = [ user1, user2, user3]
+new_users = [ user1, user2, user3 ]
 
 for users in new_users:
     print(users)
@@ -56,7 +56,13 @@ print('********************************')
 
 print('Welcome %s, your skills are: ' %user1['name'])
 for leng in user1['skills']:
-    print('\t', leng)
+    print(leng)
+print ('***********************************')
 
+for user in new_users:
+    print('Welcome %s, your skills are: ' %user['name'])
+    for leng in user['skills']:
+        print(leng)
+        print('------------------')
     
 
