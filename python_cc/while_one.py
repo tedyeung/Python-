@@ -6,5 +6,8 @@ while languages:
     lang = languages.pop()
     print('You need to learn %s' %lang)
     need_to_learn.append(lang)
+    
+print ('\n', '*************************************', '\n')
 
-print ("Your list is: ", need_to_learn)
+for x in need_to_learn:
+    print ("I will learn: ", need_to_learn)
