@@ -53,7 +53,10 @@ for users in new_users:
     print(users)
 print('********************************')    
 
-for user, language in user1.items():
-    print('Welcome %s' %user)
 
+print('Welcome %s, your skills are: ' %user1['name'])
+for leng in user1['skills']:
+    print('\t', leng)
+
+    
 
