@@ -53,7 +53,7 @@ for users in new_users:
     print(users)
 print('********************************')    
 
-for user, language in user1.items:
-    print('Welcome %s' %user)
+for user, language in user1.items():
+    print('Welcome %s' user)
 
 
