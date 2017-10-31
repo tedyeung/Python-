@@ -60,9 +60,10 @@ for leng in user1['skills']:
 print ('***********************************')
 
 for user in new_users:
+    print('------------------')
     print('Welcome %s, your skills are: ' %user['name'])
     for leng in user['skills']:
         print(leng)
-        print('------------------')
+        
     
 
