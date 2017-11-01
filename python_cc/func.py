@@ -11,6 +11,7 @@ def book(my_book):
 
 book('python crash course')
 
+print('*******************************************************8')
 
 
 
