@@ -13,7 +13,15 @@ book('python crash course')
 
 print('\n*******************************************************\n')
 
+# func for the t-shirt
 
+def tshrt(size, text):
+    print('Your text will be ', text.title())
+    print('Size of t-shirt will be: ', size)
+
+tshrt(48, 'love python')
+    
+    
 
     
 
