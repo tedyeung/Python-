@@ -1,5 +1,9 @@
 # simple fucntion
- def greeting ():
-     print 'Hello Slavo, you need to learn Python EveryDay :)'
+def greet():
+    print('Hello Slavo, you need to learn a lot!!')
 
-greeting()
+greet()
+
+
+    
+
