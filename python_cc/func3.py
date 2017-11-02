@@ -5,9 +5,11 @@ def todo_list (list_todo):
     print(list_todo)
 
 todo_list(todo)
-
+print('\n*************************************\n')
 # new func
 def todo_li (todo, todo_list):
-    todos = todo.pop()
-    
+    todo_list = todo[:]
+    print(todo_list)
+todo_li(todo, my_rodo)
+print('\n*************************************\n')
     
