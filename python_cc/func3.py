@@ -5,3 +5,6 @@ def todo_list (list_todo):
     print(list_todo)
 
 todo_list(todo)
+
+# new func
+
