@@ -4,4 +4,4 @@ todo = ['python', 'swift', 'machine learning', 'ios11 and swift4', 'data science
 def todo_list (list_todo):
     print(list_todo)
 
-todo_list[todo]
+todo_list(todo)
