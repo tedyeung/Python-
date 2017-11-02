@@ -15,13 +15,15 @@ print('\n*******************************************************\n')
 
 # func for the t-shirt
 
-def tshrt(size, text):
+def tshrt(size ='L', text = 'i am python developer'):
     print('Your text will be ', text.title())
-    print('Size of t-shirt will be: ', size)
+    print('Size of t-shirt will be: ', str(size))
 
 tshrt(48, 'love python')
     
-    
+print('\n*******************************************************\n')    
+# func for the t-shirt   
 
-    
+tshrt()
 
+print('\n*******************************************************\n')
