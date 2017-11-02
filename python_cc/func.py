@@ -16,7 +16,7 @@ print('\n*******************************************************\n')
 # func for the t-shirt
 
 def tshrt(size ='L', text = 'i am python developer'):
-    print('Your text will be ', text.title())
+    print('Your text will be: ', text.title())
     print('Size of t-shirt will be: ', str(size))
 
 tshrt(48, 'love python')
