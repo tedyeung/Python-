@@ -7,5 +7,7 @@ city_coutry('Belgrade', 'Serbia')
 city_coutry('new york', 'usa')
 city_coutry('london','england')
 
+# write a simple func that outpu is dic
+
 
     
