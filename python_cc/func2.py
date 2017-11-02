@@ -27,4 +27,7 @@ while active:
         active = False
         print ('Thank You')
 
-make_album(artist, song)
+albums = make_album(artist, song)
+print (albums)
+
+
