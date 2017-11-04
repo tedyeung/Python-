@@ -16,10 +16,17 @@ class Restaurant():
         return surved
  
     def increment_surved(self, new_surved):
-        new_surved_num = set_number_surved + new_surved
+        new_surved_num = served + new_surved
         return new_surved_num
 
 
 new_restoran = Restaurant('Pasta and ristoranete', 'margate')
 
 new_restoran.info()
+
+served = new_restoran.set_number_surved(25)
+print('We just served %s' %str(served))
+inc_served = new_restoran.increment_surved(25)
+print('Till the end of the nite we served ' + str(inc_served) + ', at the middle of the nute we had '  + str(served))
+
+
