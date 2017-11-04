@@ -5,7 +5,7 @@ class Restaurant:
         self.restaurant_type = restaurant_type
     
     def describe_restaurant(self):
-        print ('Welcome to %s, We are %s ' %(restauarant_name.title(), restaurant_type.title()))
+        print ('Welcome to %s, We are %s ' %(self.restauarant_name.title(), self.restaurant_type.title()))
 
 
 restaurant = Restaurant('pasta and...', 'italian restaurante')
