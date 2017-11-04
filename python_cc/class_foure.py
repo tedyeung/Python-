@@ -27,9 +27,9 @@ class IceCreamStand(Restaurant):
 
     def info_ice_creame(self):
         print ('Welcome to ' + self.name.title() + ',We are in ' + self.place.title())
-        print('Choose flavor: \n')
+        print('Choose flavor:')
         for flavor in self.flavors:
-            print(flavor)
+            print('\t\t', flavor)
         
         
 
