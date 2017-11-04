@@ -33,8 +33,8 @@ class IceCreamStand(Restaurant):
         
         
 
-# iceCream = IceCreamStand('pane dolce', 'fort lauderdale')
-# iceCream.info_ice_creame()
+iceCream = IceCreamStand('pane dolce', 'fort lauderdale')
+iceCream.info_ice_creame()
 
 
 # new class 
@@ -87,7 +87,7 @@ class Privilage():
         for priv in self.privilage:
             print('\t\t', priv)
 
-# class Admin(User):
+
 class Admin(User):
     
     def __init__(self, first_name, last_name, age, city):
