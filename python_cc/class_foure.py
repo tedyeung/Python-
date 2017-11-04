@@ -88,7 +88,7 @@ class Privilage():
             print('\t\t', priv)
 
 # class Admin(User):
-class Admin:
+class Admin(User):
     
     def __init__(self, first_name, last_name, age, city):
         super().__init__(first_name, last_name, age, city)
@@ -97,6 +97,6 @@ class Admin:
 
 
 admin = Admin('Slavo', 'Popovic', 35, 'pompano beach')
-# admin.user_info()
+admin.user_info()
 admin.privilages.show_privilage()
 
