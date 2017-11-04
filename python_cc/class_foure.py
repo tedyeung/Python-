@@ -25,8 +25,8 @@ class IceCreamStand(Restaurant):
         super().__init__(self, name, place)
         self.flavors = ['chocolate', 'vanilla', 'Nutella']
 
-    def info_ice_creame(slef):
-        print ('Welcome to ' + slef.name.title() + ',We are in ' + self.place.title())
+    def info_ice_creame(self):
+        print ('Welcome to ' + self.name.title() + ',We are in ' + self.place.title())
         print ('Please choose the flavor: \n')
         for flavor in self.flavors:
             print(flavor)
