@@ -33,8 +33,8 @@ class IceCreamStand(Restaurant):
         
         
 
-iceCream = IceCreamStand('pane dolce', 'fort lauderdale')
-iceCream.info_ice_creame()
+# iceCream = IceCreamStand('pane dolce', 'fort lauderdale')
+# iceCream.info_ice_creame()
 
 
 # new class 
@@ -79,7 +79,7 @@ class User():
 
 class Privilage():
     
-    def __init__(self, privilage):
+    def __init__(self):
         self.privilage = ['can add post', 'can delete post', 'add user', 'remove user']
 
     def show_privilage(self):
@@ -88,15 +88,15 @@ class Privilage():
             print('\t\t', priv)
 
 # class Admin(User):
-
+class Admin:
+    
     def __init__(self, first_name, last_name, age, city):
         super().__init__(first_name, last_name, age, city)
         self.privilages = Privilage()
 
-privil = Privilage()
-privil.show_privilage()
 
-# admin = Admin('Slavo', 'Popovic', 35, 'pompano beach')
+
+admin = Admin('Slavo', 'Popovic', 35, 'pompano beach')
 # admin.user_info()
-# admin.privilages.show_privilage()
+admin.privilages.show_privilage()
 
