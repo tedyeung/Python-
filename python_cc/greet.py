@@ -3,4 +3,8 @@ def greeting (name):
     print('Welcome %s, you are learning Python for Data Science, Machine Learning, Web Development, Deep Learning, AI and rest :)' %name.title())
     print ('\n*****************************************************')
 
-    
+def num(a, b):
+    c = a * b
+    print ('\n*****************************************************')
+    print ('Result is ' + c)
+    print ('******************************************************\n')
