@@ -22,7 +22,7 @@ class Restaurant():
 class IceCreamStand(Restaurant):
     
     def __init__(self, name, place):
-        super().__init__( name, place)
+        super().__init__(name, place)
         self.flavors = ['chocolate', 'vanilla', 'Nutella']
 
     def info_ice_creame(self):
@@ -34,7 +34,7 @@ class IceCreamStand(Restaurant):
         
 
 iceCream = IceCreamStand('pane dolce', 'fort lauderdale')
-iceCream.info_creame()
+iceCream.info_ice_creame()
 
 
 
