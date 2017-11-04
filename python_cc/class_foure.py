@@ -79,7 +79,7 @@ class User():
 class Admin(User):
 
     def __init__(self, first_name, last_name, age, city):
-        super __init__(first_name, last_name, age, city)
+        super().__init__(first_name, last_name, age, city)
         self.privilages = ['can add post', 'can delete post', 'add user', 'remove user']
 
         def show_privilages(self):
