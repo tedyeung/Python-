@@ -1,13 +1,13 @@
 class Restaurant:
 
     def __init__(self, restauarant_name, restaurant_type):
-        self.restauarant_name = name 
-        self.restaurant_type = type
+        self.restauarant_name = restauarant_name 
+        self.restaurant_type = restaurant_type
     
     def describe_restaurant():
-        print ('Welcome to %s, We are %s ' %(name.title(), type.title()))
+        print ('Welcome to %s, We are %s ' %(restauarant_name.title(), restaurant_type.title()))
 
 
 restaurant = Restaurant('pasta and...', 'italian restaurante')
 
-print ('Welcome to ', restaurant.name.title())
+print ('Welcome to ', restaurant.restauarant_name.title())
