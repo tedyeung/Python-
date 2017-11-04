@@ -24,17 +24,16 @@ class User():
         psw = self.password
         active = True
         while active:
-            log = 1
             psw = input("Please add your password: ")
             if psw == 'mimicom2433062fl':
                 active = False
                 self.login = 0 
                 print ('Well Done')
             else:
-                self.login = self.login + log
+                self.login = self.login + 1
                 print('This is your ', self.login,' try')
 
-        print ('You have %s logs' %str(self.login))
+        print ('You have %s logs' %str(self.login), '!We did reset of your attempts!')
              
     
     acitve = True
