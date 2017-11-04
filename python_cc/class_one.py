@@ -16,7 +16,7 @@ class User():
 
     def user_info(self):
         print('\n*************************************************************\n')
-        print('Your info \nFull name: %s %s\nAge: %s\nCity: %s' %((self.first_name.title(), self.last_name.title()), str(self.age), self.city.title()))
+        print('Your info \nFull name: %s %s\nAge: %s\nCity: %s' %(self.first_name.title(), self.last_name.title()), str(self.age), self.city.title()))
         print('\n*************************************************************\n')
 
 
