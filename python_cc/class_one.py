@@ -25,10 +25,11 @@ tamara_user = User('tamara', 'nakic', 33, 'pompano beach')
 nenad_user = User('nenad', 'sotirovic', 37, 'Dobrec')
 milos_user = User('milos', 'puric', 36, 'belgrade')
 
-print (slavo_user.user_info())
-print (tamara_user.user_info())
-print (nenad_user.user_info())
-print (milos_user.user_info())
+slavo_user.user_info()
+tamara_user.user_info()
+nenad_user.user_info()
+milos_user.user_info()
+
         
 
     
