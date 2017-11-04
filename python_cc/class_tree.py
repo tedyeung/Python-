@@ -26,7 +26,7 @@ class User():
         active = True
         while active:
             if psw != 'mimicom2433062fl':
-                print('Please try again this si your ',  self.login += 1, ' try')
+                print('Please try again this si your ',  self.login =+ 1, ' try')
             else:
                 active = False
                 self.login = 0 
