@@ -99,3 +99,7 @@ class Privilage():
         print('Admin has those privilages:')
         for priv in self.privilage:
             print('\t\t', priv)
+
+
+admin.privilages.show_privilage()
+
