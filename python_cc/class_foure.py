@@ -75,6 +75,17 @@ class User():
 
         print ('You have %s logs' %str(self.login), '!We did reset of your attempts!')
 
+# Privilage class
+
+class Privilage():
+    
+    def __init__(self, privilage):
+        self.privilage = ['can add post', 'can delete post', 'add user', 'remove user']
+
+    def show_privilage(self):
+        print('Admin has those privilages:')
+        for priv in self.privilage:
+            print('\t\t', priv)
 
 class Admin(User):
 
@@ -88,17 +99,6 @@ class Admin(User):
 admin = Admin('Slavo', 'Popovic', 35, 'pompano beach')
 admin.user_info()
 
-# Privilage class
-
-class Privilage():
-    
-    def __init__(self, privilage):
-        self.privilage = ['can add post', 'can delete post', 'add user', 'remove user']
-
-    def show_privilage(self):
-        print('Admin has those privilages:')
-        for priv in self.privilage:
-            print('\t\t', priv)
 
 
 admin.privilages.show_privilage()
