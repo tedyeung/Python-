@@ -7,4 +7,8 @@ class Restaurant():
         self.place = place
         self.number_served = 0
 
+    def set_number_surved(self, num):
+        surved = num + number_served
+        return surved
+
     
