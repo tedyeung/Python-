@@ -20,11 +20,10 @@ class User():
         print('\n*************************************************************\n')
 
     def login_att(self, num):
-        login += num
+        self.login += 10
 
 slavo_user = User('slavo', 'popovic', 35, 'fort lauderdale')
 # tamara_user = User('tamara', 'nakic', 33, 'pompano beach')
 # nenad_user = User('nenad', 'sotirovic', 37, 'Dobrec')
 # milos_user = User('milos', 'puric', 36, 'belgrade')
-
 print('Slavo you tried to access: ', slavo_user.login_att(10))
