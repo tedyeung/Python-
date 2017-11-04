@@ -15,9 +15,20 @@ class User():
         print('Please enter your bio %s' %self.first_name.tittle())
 
     def user_info(self):
+        print('\n*************************************************************\n')
         print('Your info \nFull name: %s %s\nAge: %s\nCity: %s' %((self.first_name.title(), self.last_name.title()), str(self.age), self.city.title()))
+        print('\n*************************************************************\n')
 
-        
+
+slavo_user = User('slavo', 'popovic', 35, 'fort lauderdale')
+tamara_user = User('tamara', 'nakic', 33, 'pompano beach')
+nenad_user = User('nenad', 'sotirovic', 37, 'Dobrec')
+milos_user = User('milos', 'puric', 36, 'belgrade')
+
+print (slavo_user.user_info())
+print (tamara_user.user_info())
+print (nenad_user.user_info())
+print (milos_user.user_info())
         
 
     
