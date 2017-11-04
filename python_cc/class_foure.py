@@ -85,7 +85,7 @@ class Admin(User):
     def show_privilages(self):
         print('Admin has those privilages:')
         for priv in self.privilages:
-            print('/t/t', priv)
+            print('\t\t', priv)
 
 
 admin = Admin('Slavo', 'Popovic', 35, 'pompano beach')
