@@ -80,14 +80,13 @@ class Admin(User):
 
     def __init__(self, first_name, last_name, age, city):
         super().__init__(first_name, last_name, age, city)
-    
-    
+        self.privilages = Privilage()
+
+
 
 
 admin = Admin('Slavo', 'Popovic', 35, 'pompano beach')
-
 admin.user_info()
-admin.show_privilages()
 
 # Privilage class
 
@@ -96,7 +95,7 @@ class Privilage():
     def __init__(self, privilage):
         self.privilage = ['can add post', 'can delete post', 'add user', 'remove user']
 
-    def show_privilages(self):
+    def show_privilage(self):
         print('Admin has those privilages:')
-        for priv in self.privilages:
+        for priv in self.privilage:
             print('\t\t', priv)
