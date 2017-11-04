@@ -22,16 +22,19 @@ class User():
     
     def login_att(self):
         psw = self.password
-        psw = input("Please add your password: ")
         active = True
         while active:
-            if psw != 'mimicom2433062fl':
-                print('Please try again this si your ',  self.login =+ 1, ' try')
-            else:
+            log = 1
+            psw = input("Please add your password: ")
+            if psw == 'mimicom2433062fl':
                 active = False
                 self.login = 0 
                 print ('Well Done')
-        print ('You have %s' %str(self.login))
+            else:
+                self.login = self.login + log
+                print('This is your ', self.login,' try')
+
+        print ('You have %s logs' %str(self.login))
              
     
     acitve = True
