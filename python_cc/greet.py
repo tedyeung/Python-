@@ -6,5 +6,5 @@ def greeting (name):
 def numbers (a, b):
     c = a * b
     print ('\n*****************************************************')
-    print ('Result is ', c)
+    print ('Result is: ', c)
     print ('******************************************************\n')
