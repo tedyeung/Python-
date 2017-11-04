@@ -87,19 +87,16 @@ class Privilage():
         for priv in self.privilage:
             print('\t\t', priv)
 
-class Admin(User):
+# class Admin(User):
 
     def __init__(self, first_name, last_name, age, city):
         super().__init__(first_name, last_name, age, city)
         self.privilages = Privilage()
 
+privil = Privilage()
+privil.show_privilage()
 
-
-
-admin = Admin('Slavo', 'Popovic', 35, 'pompano beach')
-admin.user_info()
-
-
-
-admin.privilages.show_privilage()
+# admin = Admin('Slavo', 'Popovic', 35, 'pompano beach')
+# admin.user_info()
+# admin.privilages.show_privilage()
 
