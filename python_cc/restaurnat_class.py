@@ -16,3 +16,5 @@ class Restaurant():
     def increment_surved(self, new_surved):
         new_surved_num = served + new_surved
         return new_surved_num
+
+
