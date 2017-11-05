@@ -1,4 +1,4 @@
 import textwrap
 import time 
 
-print (time.clock())
+print (time.ctime())
