@@ -7,6 +7,11 @@ pi_str = ''
 for line in lines:
     pi_str += line.rstrip()
 
-
+bday = input('Please eneter your Bday, in the form mmddyy: ')
+if bday in pi_str:
+    print('Your Birthday appears in the first million digits of pi!')
+    print(bday)
+else:
+    print('Your Bday does not appear in the first million digits of pi!')
 
     
