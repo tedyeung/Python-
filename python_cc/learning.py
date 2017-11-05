@@ -5,6 +5,8 @@ with open(file) as file_obj:
 
 list_items = []
 for line in lines:
-    list_items.append(line[1:])
+    list_items.append(line.rstrip())
 
-print (list_items)
+print ('List exported from the file: ',list_items)
+list_items.remove(0)
+print ('List of skills: ', list_items)
