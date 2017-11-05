@@ -5,7 +5,7 @@ with open(file_name) as file_object:
 
 pi_str = ''
 for line in lines:
-    pi_str += line.rstrip()
+    pi_str += line.strip()
 
 bday = input('Please eneter your Bday, in the form mmddyy: ')
 if bday in pi_str:
