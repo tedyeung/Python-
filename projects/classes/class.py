@@ -23,3 +23,24 @@ coordinate2 = (8,10)
 li = Line(coordinate1, coordinate2)
 print(li.slope())
 print(li.distance())
+
+# 2nd homework
+
+class Cylinder(object):
+    
+    def __init__(self,height=1,radius=1):
+        self.height = height
+        self.radius = radius
+        
+    def volume(self):
+        return self.height * (3.14)* (self.radius)**2
+    
+    def surface_area(self):
+        top = (3.14)* (self.radius)**2
+        return 2*top + 2*3.14*self.radius*self.height
+
+c = Cylinder(2,3)
+print('Volume: ', c.volume())
+print('Surface_area: ', c.surface_area)
+
+
