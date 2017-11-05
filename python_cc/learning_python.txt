@@ -1,0 +1,9 @@
+Whith payhton i can do:
+varibales
+strings
+numbers
+lists
+dicttioners
+if statemets
+functions 
+classes
