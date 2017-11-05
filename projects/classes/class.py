@@ -20,4 +20,6 @@ class Line():
 coordinate1 = (3,2)
 coordinate2 = (8,10)
 
-li = Line(coordinate1,coordinate2)
+li = Line(5,10)
+li.slope()
+li.distance()
