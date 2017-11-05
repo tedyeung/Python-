@@ -13,5 +13,3 @@ if bday in pi_str:
     print(bday)
 else:
     print('Your Bday does not appear in the first million digits of pi!')
-
-    
