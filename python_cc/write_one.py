@@ -11,6 +11,7 @@ while active:
             file_obj.write('***********************************')
     else: 
         print ('Thank you, your name is added to write_greeting.txt')
+        break
     
 
 print('Check the file!!!!')
