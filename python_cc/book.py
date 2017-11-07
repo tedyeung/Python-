@@ -4,6 +4,7 @@ file_name = 'book.txt'
 
 with open(file_name) as file_obj:
     content = file_obj.read()
+    print (content)
   
     
 
