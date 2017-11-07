@@ -1,5 +1,5 @@
 
-files = ["try_cats.txt", "try_dogs.txt"]
+files = ["try_cats.txt", "try_dogs.txt", "birds.txt"]
 
 for file in files:
     with open(file) as file_obj:
