@@ -1,6 +1,6 @@
-def city_coutry (city, coutry):
-    formated_place = city.title() + ' ' + coutry.title()
+def city_country (city, country):
+    formated_place = city.title() + ' ' + country.title()
     return formated_place
 
-city_coutry(belgrade, serbia)
+city_country(belgrade, serbia)
     
