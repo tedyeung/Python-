@@ -1,7 +1,8 @@
 def city_country (city, country,  population=0):
     formated_place = city.title() + ',' + country.title()
-    formated_place += ' - population ' + str(population)
+    if population:
+        formated_place += ' - population ' + str(population)
     return formated_place
 
-print (city_country('belgrade', 'serbia', 70000000))
+print (city_country('belgrade', 'serbia'))
     
