@@ -1,4 +1,4 @@
-def city_country (city, country, population):
+def city_country (city, country,  population=0):
     formated_place = city.title() + ',' + country.title()
     formated_place += ' - population ' + str(population)
     return formated_place
