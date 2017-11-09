@@ -2,7 +2,7 @@ import unittest
 
 from employee import Employee
 
-class TestCase(self):
+class TestCase(unittest.TestCase):
     
     def setUP(self):
         self.slavo = Employee('slavo', 'popovic', 125000)
