@@ -4,7 +4,7 @@ from employee import Employee
 
 class TestCase(unittest.TestCase):
     
-    def setUP(self):
+    def setUp(self):
         self.slavo = Employee('slavo', 'popovic', 125000)
 
     def test_give_default_raise(self):
