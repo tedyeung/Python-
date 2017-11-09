@@ -4,8 +4,8 @@ from employee import Employee
 
 class TestCase(self):
     
-    def setUP(self)
-    self.slavo = Employee('slavo', 'popovic', 125000)
+    def setUP(self):
+        self.slavo = Employee('slavo', 'popovic', 125000)
 
     def test_give_default_raise(self):
         self.slavo.give_raise()
