@@ -10,7 +10,7 @@ cubes = [x**3 for x in range(1,6)]
 
 print('Values: ', values)
 print('Cubes: ', cubes)
-plt.title = ('Simple Graph of cube numbers')
+plt.title = ("Simple Graph of cube numbers")
 plt.xlabel = ('Values')
 plt.ylable = ('Cubes')
 plt.plot(values, cubes, linewidth=2)
