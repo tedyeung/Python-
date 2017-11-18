@@ -1,4 +1,4 @@
-import matplotlib
+import matplotlib.pyplot as plt
 
 value = list(range(1,11))
 power_of_4 = [x**4 for x  in value]
