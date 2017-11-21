@@ -14,3 +14,6 @@ def prime_number(number):
     return True
 
 prime_number(num_input)
+
+l = list(range(3, int(5**0.5)+1))
+print (l)
