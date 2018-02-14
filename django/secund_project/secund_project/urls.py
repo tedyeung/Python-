@@ -20,6 +20,6 @@ from secund_app import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^help', include('secund_app.urls'))
+    url(r'^help', include('secund_app.urls')),
     url(r'^admin/', admin.site.urls),
 ]
