@@ -6,5 +6,5 @@ def index(request):
     my_dict = {
         'text': 'Well Done Slavo!! You did it!!!'
     }
-    return render(reversed, 'help.html', context=my_dict)
+    return render(request, 'help.html', context=my_dict)
 
