@@ -8,3 +8,5 @@ def index(request):
     }
     return render(request, 'help.html', context=my_dict)
 
+def test(request):
+    return HttpResponse('<h1> Welcome Slavo to Your app!!')
