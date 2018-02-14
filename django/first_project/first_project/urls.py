@@ -25,4 +25,3 @@ urlpatterns = [
     url(r'^first_app',include('first_app.urls')),
     url(r'^admin/', admin.site.urls),
 ]
-j
