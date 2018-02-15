@@ -1,2 +1,6 @@
 def sum_numbers (*args):
-    return a + b + c + d + g + h
+    res = 0
+    for num in args:
+        res =+ num
+
+    return res 
