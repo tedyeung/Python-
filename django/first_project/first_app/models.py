@@ -16,7 +16,13 @@ class Webpage(models.Model):
     def __str__(self):
         return self.name 
 
-class 
+class AccessRecord(models.Model):
+    name = models.ForeignKey(webpage)
+    date = models.FateField()
+
+    def __str__(self):
+        return str(self.date)
+
 
 
 
