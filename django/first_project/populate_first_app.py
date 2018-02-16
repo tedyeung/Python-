@@ -24,14 +24,14 @@ def populate(N=5):
         top = add_topic()
         # Create the fake data for that entry
         fake_url = fakegen.url() 
-        fake_data = fakegen.data()
+        fake_date = fakegen.date()
         fake_name = fakegen.company()
 
         # create the new webpage entry 
         webpg = Webpage.objects.get_or_create(topic=top,url=fake_url,name=fake_name)[0]
 
         # create fake access record to a webpage
-        acc_rec = AccessRecord.objects.get_or_create(name=webpg, date=fake_data)[0]
+        acc_rec = AccessRecord.objects.get_or_create(name=webpg, date=fake_date)[0]
 
 if __name__ == '__main__':
     print('populating script')
