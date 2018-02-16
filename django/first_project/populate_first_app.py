@@ -17,3 +17,12 @@ def add_topic():
     t.save()
     return t
 
+def populate(N=5):
+
+    for entry in range(N):
+        # get the topic for the entry
+        top = add_topic()
+        # Create the fake data for that entry
+        fake_url = fakegen.url() 
+        fake_data = fakegen.data()
+        fake_name = fakegen.name()
