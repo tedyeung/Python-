@@ -4,4 +4,4 @@ from termcolor import colored
 text = input('What is your name? ')
 
 
-print(text)
+print(colored(text, 'green'));
