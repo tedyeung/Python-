@@ -1,8 +1,10 @@
 from termcolor import colored
-import pyfiglet as pf 
+from pyfiglet import Figlet
 # text = colored("Hello Salvo", 'red')
 # text = input('What is your name? ')
 name = 'Salvo'
+f = Figlet(font = 'slant')
 
-print (pf(name));
+
+print (f.renderText(name));
 # print(colored(text, 'green', 'on_red'));
