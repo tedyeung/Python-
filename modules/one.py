@@ -6,5 +6,5 @@ name = 'Salvo'
 f = Figlet(font = 'slant')
 
 
-print (colored(f.renderText(name), 'red')
-# print(colored(text, 'green', 'on_red'));
+print (colored(f.renderText(name), 'red'))
+# print(colored(text, 'green', 'on_red'))
