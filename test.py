@@ -1,4 +1,4 @@
 def square(a):
     return a*a
 
-square(4);
+square(4)
