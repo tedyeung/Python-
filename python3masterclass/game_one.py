@@ -12,4 +12,4 @@ while random_number:
         print('Well Done you found the number')
         break
     else: 
-        print('Like number is: ' + random_number)
+        print('Like number is: ', random_number)
