@@ -5,4 +5,6 @@ def factorial(num):
 
 print(factorial([2,3,4]))
 
+print(factorial([10,10,10]))
+
 
