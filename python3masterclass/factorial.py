@@ -12,10 +12,10 @@ print(factorial(5))
 
 def fac(num):
     l = list(range(num + 1))
-    if num == 0 or num == 1:
-        print(1)
+    if num < 1:
+        return 1
     else: 
-        num = num + fac(num - 1)
+        num = num * fac(num - 1)
         return num 
 
-print(fac(2));
+print(fac(3));
