@@ -1,10 +1,10 @@
-# import random
+import random
 
 print('Hello Slavo')
 
 number = input('Please add number: ')
 
-random_number = random.randint(5)
+random_number = random.randint(0,5)
  
 
 
