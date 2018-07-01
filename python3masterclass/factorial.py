@@ -1,10 +1,14 @@
 # factorial number
 
 def factorial(num):
+    l = list(range(num))
     return sum(num)
 
-print(factorial([2,3,4]))
+print(factorial(3))
 
-print(factorial([10,10,10]))
+print(factorial(5))
 
+# using deferent 
+
+def fac(num):
 
