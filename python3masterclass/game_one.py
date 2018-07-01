@@ -4,7 +4,7 @@ print('Hello Slavo')
 
 number = input('Please add number: ')
 
-random_number = random.randit(6)
+random_number = random.randint(5)
  
 
 
