@@ -1,3 +1,5 @@
+import random
+
 print('Hello Slavo')
 
 number = input('Please add number: ')
