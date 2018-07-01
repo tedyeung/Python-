@@ -1,7 +1,7 @@
 # factorial number
 
 def factorial(num):
-    l = list(range(num))
+    l = list(range(num + 1))
     return sum(l)
 
 print(factorial(3))
