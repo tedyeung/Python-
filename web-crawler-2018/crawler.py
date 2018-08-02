@@ -22,9 +22,11 @@ def get_url_and_index(string):
 def all_urls(page):
     while get_url_and_index != None:
         url, end_index = get_url_and_index(page)
+        count = 1
         if url:
-            print ('Url: ', url)
+            print (count,'.Url: ', url)
             page = page[end_index]
+            count = count + 1
         else:
             print ('All Links are Print!!!')
             break
