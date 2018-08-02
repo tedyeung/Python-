@@ -15,11 +15,16 @@ def get_url_and_index(string):
 
 url, end_index = get_url_and_index('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
 
-if url:
-    print ('Here: ', url)
-    print ('End Index: ', end_index)
-else:
-    print ('Nothing Here')
+def all_urls(page):
+    while get_url_and_index != None:
+        url, end_index = get_url_and_index(page)
+        if url:
+            print ('Url: ', url)
+            page = page[end_index]
+        else:
+            print ('All Links are Print!!!')
+            break
 
-print(get_url_and_index(page))
-\
+
+print(all_urls(page))
+
