@@ -2,14 +2,23 @@
 # Using python 3 version
 
 # extrating link from web page
-page = '<a href="http://www.mimicom24.com"></a>'
+page = '<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>'
 
-def find_url(string): 
-    start_link = string.find('<a href=')
-    start_quote = string.find('"', start_link)
-    end_quote = string.find('"', start_quote + 1)
-    url = string[start_quote + 1:end_quote]
-    return url, end_quote
+def get_url(string): 
+    start_index = string.find('<a href=')
+    if start_index == -1:
+        return None, 0  # no links 
+    start_quote_index = string.find('"', start_index)
+    end_quote_index = string.find('"', start_quote_index + 1)
+    url = string[start_quote_index + 1:end_quote_index]
+    return url, end_quote_index
 
-print(find_url(page))
+url, endpos = get_url('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
+
+if url:
+    print ('Here')
+else:
+    print ('Nothing Here')
+
+print(get_url(page))
 
