@@ -36,4 +36,4 @@ test = 'Hello slavo <a href="test1"> welcome <a href="test2"> we are varu welcom
 
 print(all_urls(test))
 
-print(all_urls(page('http://mimicom24.com/')))
+print(all_urls(page('http://mimicom24.com/').encode('utf-8'))))
