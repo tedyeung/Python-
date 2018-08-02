@@ -6,10 +6,8 @@ import urllib
 # download full page from url
 
 def page(url):
-    try:
-        return urllib.urlopen(url).read()
-    except:
-        return ""
+    return urllib.request.urlopen(url).read()
+
 
 
 
