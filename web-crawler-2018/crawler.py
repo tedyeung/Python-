@@ -1,9 +1,20 @@
 # Building simple Web Crawler 
 # Using python 3 version
-
 # find link from web page
 page = '<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>'
 
+# download full page from url
+
+def page(url):
+    try:
+        import urllib
+        return urllib.urlopen(url).read()
+    except:
+        return ""
+
+
+
+# find url 
 def get_url_and_index(string): 
     start_index = string.find('<a href=')
     if start_index == -1:
@@ -15,6 +26,8 @@ def get_url_and_index(string):
 
 url, end_index = get_url_and_index('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
 
+
+# print all links from the page
 def all_urls(page):
     while get_url_and_index != None:
         url, end_index = get_url_and_index(page)
@@ -26,5 +39,6 @@ def all_urls(page):
             break
 
 
-print(all_urls(page))
+
+print(page('https://enki.com'))
 
