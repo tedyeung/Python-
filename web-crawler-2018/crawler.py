@@ -1,12 +1,12 @@
 # Building simple Web Crawler 
 # Using python 3 version
 # find link from web page
-import urllib
+from urllib.request import urlopen
 
 # download full page from url
 
 def page(url):
-    return urllib.request.urlopen(url).read()
+    return urlopen(url).read()
 
 
 
