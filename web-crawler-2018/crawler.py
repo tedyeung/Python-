@@ -3,12 +3,11 @@
 # find link from web page
 from urllib.request import urlopen
 
+
 # download full page from url
 
 def page(url):
     return urlopen(url).read()
-
-
 
 # find url 
 def get_url_and_index(string): 
@@ -34,8 +33,11 @@ def all_urls(page):
             print ('All Links are Print!!!')
             break
 
+file_data = open("enki.txt")
 
 print ('All Links: ')
-# print(page('https://enki.com'))
+# print(file_data.read())
+# print(page('https://enki.com')
 
-print(all_urls(page('https://enki.com')))
+print(all_urls(file_data))
+
