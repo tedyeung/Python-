@@ -3,9 +3,7 @@
 # find link from web page
 from urllib.request import urlopen
 
-
 # download full page from url
-
 def page(url):
     return urlopen(url).read()
 
@@ -18,8 +16,6 @@ def get_url_and_index(string):
     end_quote_index = string.find('"', start_quote_index + 1)
     url = string[start_quote_index + 1:end_quote_index]
     return url, end_quote_index
-
-url, end_index = get_url_and_index('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
 
 
 # print all links from the page
@@ -39,5 +35,5 @@ print ('All Links: ')
 # print(file_data.read())
 # print(page('https://enki.com')
 
-print(all_urls(file_data))
+print(all_urls('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li), <li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
 
