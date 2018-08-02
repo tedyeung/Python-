@@ -9,7 +9,7 @@ def find_url(string):
     start_quote = string.find('"', start_link)
     end_quote = string.find('"', start_quote + 1)
     url = string[start_quote + 1:end_quote]
-    return url
+    return url, end_quote
 
 print(find_url(page))
 
