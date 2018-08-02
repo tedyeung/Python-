@@ -20,13 +20,13 @@ def get_url_and_index(string):
 
 # print all links from the page
 def all_urls(page):
-    while True:
+    count = 0
+    while get_url_and_index != None:
         url, end_index = get_url_and_index(page)
-        count = 1
+        count = count + 1
         if url:
             print (count,'.Url: ', url)
-            page = page[end_index]
-            count = count + 1
+            page = page[end_index:]
         else:
             print ('All Links are Print!!!')
             break
