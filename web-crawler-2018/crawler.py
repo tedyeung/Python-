@@ -4,7 +4,7 @@
 # find link from web page
 page = '<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>'
 
-def get_url(string): 
+def get_url_and_index(string): 
     start_index = string.find('<a href=')
     if start_index == -1:
         return None, 0  # no links 
@@ -13,10 +13,10 @@ def get_url(string):
     url = string[start_quote_index + 1:end_quote_index]
     return url, end_quote_index
 
-url, endpos = get_url('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
+url, endpos = get_url_and_index('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
 
 if url:
-    print ('Here')
+    print ('Here: ', url)
 else:
     print ('Nothing Here')
 
