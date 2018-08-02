@@ -32,9 +32,8 @@ def all_urls(page):
             break
 
 
-
-
-
 test = 'Hello slavo <a href="test1"> welcome <a href="test2"> we are varu welcome to reach you <a href="test3">'
 
 print(all_urls(test))
+
+print(all_urls(page('http://mimicom24.com/')))
