@@ -39,5 +39,6 @@ print(all_urls(test))
 # In Python 3.5 String and Bytes are not same as in Python2.7, the manual conversion between them need to do using and encode<==> decode method.
 print('============== MimiCom24 =====================')
 print(all_urls(page('http://mimicom24.com/').decode()))
-print('========== ENKI ==============================')
+
+# print('========== ENKI ==============================')
 # print(all_urls(page('https//enki.com').decode()))
