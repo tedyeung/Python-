@@ -13,10 +13,11 @@ def get_url_and_index(string):
     url = string[start_quote_index + 1:end_quote_index]
     return url, end_quote_index
 
-url, endpos = get_url_and_index('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
+url, end_index = get_url_and_index('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
 
 if url:
     print ('Here: ', url)
+    print ('End Index: ', end_index)
 else:
     print ('Nothing Here')
 
