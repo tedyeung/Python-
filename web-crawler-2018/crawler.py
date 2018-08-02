@@ -34,6 +34,7 @@ def all_urls(page):
 
 
 
-test = '<head><a href="https://enki.com/bootstrap.e6c03554.js"/><a href="https://enki.com/templates/src/views/Home.d0ad70e7.js"/><a href="https://enki.com/main.179bbdbe.js"/><a href="https://enki.com/styles.5ad2ab75.css"/><link rel="stylesheet" href="https://enki.com/styles.5ad2ab75.css"/><meta charSet="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>'
+test =
+'<head><a href="https://enki.com/bootstrap.e6c03554.js"/><a href="https://enki.com/templates/src/views/Home.d0ad70e7.js"/><a href="https://enki.com/main.179bbdbe.js"/><a href="https://enki.com/styles.5ad2ab75.css"/><a href="https://enki.com/styles.5ad2ab75.css"/><meta charSet="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>'
 
 print(all_urls(test))
