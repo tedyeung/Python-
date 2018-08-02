@@ -10,7 +10,6 @@ def page(url):
 
 
 
-
 # find url 
 def get_url_and_index(string): 
     start_index = string.find('<a href=')
@@ -36,6 +35,7 @@ def all_urls(page):
             break
 
 
-print ('Read: ')
-print(page('https://enki.com'))
+print ('All Links: ')
+# print(page('https://enki.com'))
 
+print(all_urls(page('https://enki.com')))
