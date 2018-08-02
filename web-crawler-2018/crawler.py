@@ -1,13 +1,12 @@
 # Building simple Web Crawler 
 # Using python 3 version
 # find link from web page
-page = '<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>'
+import urllib
 
 # download full page from url
 
 def page(url):
     try:
-        import urllib
         return urllib.urlopen(url).read()
     except:
         return ""
@@ -39,6 +38,6 @@ def all_urls(page):
             break
 
 
-
+print ('Read: ')
 print(page('https://enki.com'))
 
