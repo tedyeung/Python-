@@ -1,7 +1,7 @@
 # Building simple Web Crawler 
 # Using python 3 version
 
-# extrating link from web page
+# find link from web page
 page = '<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>'
 
 def get_url(string): 
