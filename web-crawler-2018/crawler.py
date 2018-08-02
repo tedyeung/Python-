@@ -21,5 +21,5 @@ if url:
 else:
     print ('Nothing Here')
 
-print(get_url(page))
+print(get_url_and_index(page))
 
