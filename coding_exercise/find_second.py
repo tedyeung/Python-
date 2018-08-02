@@ -6,4 +6,4 @@ def find_second(str, word):
     return str.find(word, start_index + 1)
 
 
-print find_second(danton, 'audace')
+print (find_second(danton, 'audace'))
