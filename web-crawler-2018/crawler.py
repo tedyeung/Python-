@@ -29,11 +29,9 @@ def all_urls(page):
             print ('All Links are Print!!!')
             break
 
-file_data = open("enki.txt")
 
-print ('All Links: ')
-# print(file_data.read())
-# print(page('https://enki.com')
 
-print(all_urls('<li class="mobile-link"><a href="https://enki.com/about/">About</a></li), <li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li<li class="mobile-link"><a href="https://enki.com/about/">About</a></li>')
 
+test = '<head><a href="https://enki.com/bootstrap.e6c03554.js"/><a href="https://enki.com/templates/src/views/Home.d0ad70e7.js"/><a href="https://enki.com/main.179bbdbe.js"/><a href="https://enki.com/styles.5ad2ab75.css"/><link rel="stylesheet" href="https://enki.com/styles.5ad2ab75.css"/><meta charSet="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>'
+
+print(all_urls(test))
