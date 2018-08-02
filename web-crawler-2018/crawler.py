@@ -20,7 +20,7 @@ def get_url_and_index(string):
 
 # print all links from the page
 def all_urls(page):
-    while get_url_and_index != None:
+    while True:
         url, end_index = get_url_and_index(page)
         count = 1
         if url:
@@ -34,7 +34,7 @@ def all_urls(page):
 
 
 
-test =
-'<head><a href="https://enki.com/bootstrap.e6c03554.js"/><a href="https://enki.com/templates/src/views/Home.d0ad70e7.js"/><a href="https://enki.com/main.179bbdbe.js"/><a href="https://enki.com/styles.5ad2ab75.css"/><a href="https://enki.com/styles.5ad2ab75.css"/><meta charSet="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>'
+
+test = 'Hello slavo <a href="test1"> welcome <a href="test2"> we are varu welcome to reach you <a href="test3">'
 
 print(all_urls(test))
