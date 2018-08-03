@@ -14,3 +14,19 @@ def lookup(index, keyword):
 
 def add_page_to_index(index, url, content):
     words = content.split()
+    for word in words:
+        add_index(index, word, url)
+
+
+def web_crawl(seed):
+    crawl = [seed]
+    crawled = []
+    index = []
+    while crawl:
+        page = crawl.pop()
+        if page not in crowled:
+            content = get_page(page)
+            add_page_to_index(index, page, content)
+            union(crawl, all_urls(content))
+            crawled.append(page)
+    return index
