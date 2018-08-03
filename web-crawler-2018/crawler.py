@@ -46,17 +46,3 @@ print(all_urls(page('http://mimicom24.com/').decode()))
 
 # print('========== ENKI ==============================')
 # print(all_urls(page('https//enki.com').decode()))
-
-
-def add_index(index, keyword, url):
-    for entry in index:
-        if entry[0] == keyword:
-            index[1].append(url)
-            return
-    index.append([keyword, [url]])
-
-
-def lookup(index, keyword):
-    for entry in index:
-        return entry[1]
-    return []
