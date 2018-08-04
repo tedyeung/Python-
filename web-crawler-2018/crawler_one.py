@@ -12,4 +12,5 @@ parse_content = bs4(content_page, 'html.parser')
 
 all_divs = parse_content.find_all('h1')
 
-print(all_divs)
+for text_in_tags in all_divs:
+    print(text_in_tags.text)
