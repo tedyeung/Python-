@@ -1,16 +1,17 @@
 # making web crawler using BeautifulSoup
 
 import requests
-from bs4 import BeautifulSoup as bs4
+from bs4 import BeautifulSoup as bs
 
 load_page = requests.get('http://mimicom24.com/')
 content_page = load_page.content
-parse_content = bs4(content_page, 'html.parser')
+parse_content = bs(content_page, 'html.parser')
 
 # see the html code
 # print(parse_content.prettify())
 
 all_divs = parse_content.find_all('h1')
+all_a_tagas = parse_content.find_all('a')
 
-for text_in_tags in all_divs:
-    print(text_in_tags.text)
+for a in all_a_tagas:
+    print(a.text)
