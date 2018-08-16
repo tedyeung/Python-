@@ -4,5 +4,7 @@ a = ["1", 1, "1", 2]
 
 # Expected output: ['1', 2, 1] 
 
-print(a.sorted())
+a = set(a)
+print(list(a))
+
 
