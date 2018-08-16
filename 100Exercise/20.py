@@ -2,8 +2,11 @@
 
 d = {"a": 1, "b": 2, "c": 3}
 # Expected output: 6
-l = []
-for a in d:
-    l.append(d[a])
 
-print(sum(l))
+def dicSum(d):
+    l=[]
+    for a in d:
+        l.append(d[a])
+    return sum(l)
+
+print("Sum of dic:", dicSum(d))
