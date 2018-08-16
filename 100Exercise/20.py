@@ -10,3 +10,7 @@ def dicSum(d):
     return sum(l)
 
 print("Sum of dic:", dicSum(d))
+
+
+def dicSumValues(d):
+    return sum(d.values())
