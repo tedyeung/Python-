@@ -11,7 +11,7 @@ Expected output:
 1 
 '''
 def foo():
-    global c 
+    global c #making global variable
     c = 1 
     return c 
 foo() 
