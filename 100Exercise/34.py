@@ -10,7 +10,8 @@ Expected output:
 
 1 
 '''
-def foo(): 
+def foo():
+    global c 
     c = 1 
     return c 
 foo() 
