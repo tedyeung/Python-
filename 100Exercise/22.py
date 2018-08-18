@@ -1,0 +1,1 @@
+# Make a dictianlry wich will print a , b , c list of 1 - 30
