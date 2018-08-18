@@ -10,4 +10,4 @@ Expected output:
 '''
 
 import math
-print(math.cos(1))
+print(math.cos(1)) # Wrong Method Name
