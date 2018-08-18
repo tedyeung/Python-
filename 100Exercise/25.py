@@ -7,12 +7,15 @@ import re
 a = ascii_letters
 b = ascii_lowercase
 
-match = re.search(r"[A-Z]", a)
+comp = re.compile(r'^[A-Z\d]')
 
-# a = a.replace(match, '!')
-print(match)
-# print(a)
-print (b)
+print(comp.match(a))
+
 for letter in a:
-    if (letter == match):
+    if (comp == letter):
         print(letter)
+# a = a.replace(comp, '!!')
+# a = a.replace(match, '!')
+
+
+
