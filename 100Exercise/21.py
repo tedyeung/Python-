@@ -12,3 +12,8 @@ for key in d:
     
 print (b)
 
+# solution 2
+
+aff = {"a": 1, "b": 2, "c": 3}
+aff = dict((key, value) for key, value in aff.items() if value <= 1)
+print(aff)
