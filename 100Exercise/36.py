@@ -7,5 +7,11 @@ Expected output:
 
 '''
 
+def str_len(file):
+    with open(file) as f:
+        data = f.read()
+    
+    return len(data)
 
+print(str_len('words1.txt'))
 
