@@ -11,7 +11,7 @@ def str_len(file):
     with open(file) as f:
         data = f.read()
     
-    return len(data)
+    return len(data.split(" "))
 
 print(str_len('words1.txt'))
 
