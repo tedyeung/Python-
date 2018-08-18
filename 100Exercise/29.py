@@ -14,5 +14,9 @@ Expected output:
 
 from math import pi
 
-p = pi
-print(pi)
+def acc (r,h,p=pi):
+   # r = float(r)
+   # h = float(h)
+    return ((4*p*(r**3))/3) - ((p*(h**2)*(3*r - h))/3)
+
+print("Result: ",acc(10,2))
