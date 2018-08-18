@@ -7,9 +7,10 @@ import re
 a = ascii_letters
 b = ascii_lowercase
 
-match = re.findall(r'[A-Z]', a)
+match = re.match("\W[A-Z]|", a)
+print(match)
 
-print(b)
+
 
 
 
