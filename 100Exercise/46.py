@@ -1,10 +1,12 @@
-'''
-Question: Please create a script that generates 26 text files named a.txt, b.txt, and so on up to z.txt. Each file should contain a letter reflecting its filename. So, a.txt will contain letter a, b.txt will contain letter b and so on
-'''
+# Make a list from the the text files 
 
 from string import ascii_lowercase
 
+alph_list = []
 
-for letter in ascii_lowercase:
-    with open("46" + "/" + letter + '.txt', "w") as f:
-        f.write(letter)
+for char in ascii_lowercase:
+    with open("46/" + char + ".txt", 'r') as f:
+        data = f.read()
+    alph_list.append(data)
+
+print("Data List: ", alph_list)
