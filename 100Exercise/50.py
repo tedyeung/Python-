@@ -7,6 +7,6 @@ print("Last year you were %s." % age_last_year)
 Note: Please use raw_input instead of input if you are on Python 2. For Python 3 input is fine.
 '''
 
-age = input("What's your age? ")
+age = input("What's your age? ") # string - needs to convert to age
 age_last_year = int(age) - 1
 print("Last year you were %s." % age_last_year)
