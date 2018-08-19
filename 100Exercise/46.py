@@ -7,4 +7,4 @@ from string import ascii_lowercase
 
 for letter in ascii_lowercase:
     with open("46" + "/" + letter + '.txt', "w") as f:
-        f.write('I love Python, Matematics and Programing')
+        f.write(letter)
