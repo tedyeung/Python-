@@ -10,3 +10,6 @@ for char in ascii_lowercase:
     alph_list.append(data)
 
 print("Data List: ", alph_list)
+
+# Solution
+
