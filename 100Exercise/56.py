@@ -17,5 +17,5 @@ d = {"employees":[{"firstName": "John", "lastName": "Doe"},
 
 import json
 
-d = json.dumps(d)
+d = json.dumps(d,sort_keys=True,indent=4, separators=(',', ': '))
 print (d)
