@@ -17,3 +17,6 @@ d = {"employees":[{"firstName": "John", "lastName": "Doe"},
                 {"firstName": "Peter", "lastName": "Jones"}],
 "owners":[{"firstName": "Jack", "lastName": "Petter"},
           {"firstName": "Jessy", "lastName": "Petter"}]}
+
+
+print(d['employees'][1]['lastName'])
