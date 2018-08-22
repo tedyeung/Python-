@@ -11,9 +11,10 @@ Expected output:
 '''
 
 import json
+import pprint as pp
 
 with open('company1.json') as json_file:
     data = json.load(json_file)
 
-print(data)
+pp.pprint(data)
 
