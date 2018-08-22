@@ -12,7 +12,7 @@ Expected output:
 
 import json
 
-with open('company.json') as json_file:
+with open('company1.json') as json_file:
     data = json.load(json_file)
 
 print(data)
